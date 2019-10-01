@@ -7,6 +7,7 @@ OpenGulf is a digital project launched in the Arts and Humanities Division of NY
 Pilot digital exhibits: 
 
 [Discovering the Empty Quarter](http://djwrisley.hosting.nyu.edu/Philby/exhibits/show/eq/introduction)
+
 [Exploring Lorimer](http://djwrisley.hosting.nyu.edu/lorimer/s/exploring/page/home)
 
 Datasets currently under construction include: 
