@@ -1,21 +1,21 @@
-### Welcome to OpenGulf
+#### Welcome to OpenGulf
 
 OpenGulf is set of interconnected digital projects focusing on historical documentation about the Gulf. OpenGulf was launched in the Arts and Humanities Division of NYU Abu Dhabi. The projects publishes open historical datasets, corpora and digital exhibits with the aim of opening Gulf Studies to digital historical exploration, analysis and interpretation. 
 
-### Projects
+#### Projects
 
 
-## Open Datasets: 
+### Open Datasets: 
 
-# Geographic annotations 
+## Geographic annotations 
 - Lorimer's _Gazetteer of the Persian Gulf, Oman and Central Arabia_
 - Jomard's _Notice Géographique sur le pays de Nedjd ou Arabie Centrale_
 - historical maps
 
-# Environmental data 
+## Environmental data 
 - John Gordon Lorimer's _Gazetteer of the Persian Gulf, Oman and Central Arabia_
 
-# Travel itineraries of Western orientalists to Arabia
+## Travel itineraries of Western orientalists to Arabia
 
 
 ## Corpora: 
@@ -39,6 +39,6 @@ David Joseph Wrisley (Associate Professor of Digital Humanities, NYU Abu Dhabi)
 
 
 
-### Contact Us 
+#### Contact Us 
 
 Questions about the project? Interested in participating? opengulfNYUAD@gmail.com
