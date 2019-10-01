@@ -5,22 +5,23 @@ OpenGulf is set of interconnected digital projects focusing on historical docume
 ### Projects
 
 
-# Datasets: 
+## Datasets: 
 
-Open geographic annotations (under construction)
-- Lorimer’s _Gazetteer_
+Open geographic annotations 
+- John Gordon Lorimer's _Gazetteer of the Persian Gulf, Oman and Central Arabia_
 
 Environmental data 
-- Lorimer’s _Gazetteer_
+- John Gordon Lorimer's _Gazetteer of the Persian Gulf, Oman and Central Arabia_
 
 Travel itineraries of Western orientalists to Arabia 
 
-# Corpora: 
+
+## Corpora: 
 
 Bushire Residency papers 
 
 
-Digital exhibits: 
+## Digital exhibits: 
 
 [Discovering the Empty Quarter](http://djwrisley.hosting.nyu.edu/Philby/exhibits/show/eq/introduction)
 
