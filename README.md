@@ -1,8 +1,6 @@
 ## Welcome to OpenGulf
 
-You can use the [editor on GitHub](https://github.com/opengulf/opengulf.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+OpenGulf is a digital project launched in the Arts and Humanities Division of NYU Abu Dhabi focusing on historical documentation about the Gulf through a quantitative lens. The project  creates and publishing historical datasets, corpora and digital exhibits with the aim of opening Gulf Studies to digital historical exploration, analysis and interpretation. 
 
 ### Markdown
 
