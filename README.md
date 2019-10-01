@@ -9,6 +9,7 @@ OpenGulf is set of interconnected digital projects focusing on historical docume
 
 Geographic annotations 
 - John Gordon Lorimer's _Gazetteer of the Persian Gulf, Oman and Central Arabia_
+-
 
 Environmental data 
 - John Gordon Lorimer's _Gazetteer of the Persian Gulf, Oman and Central Arabia_
@@ -16,12 +17,12 @@ Environmental data
 Travel itineraries of Western orientalists to Arabia (future) 
 
 
-## Corpora: 
+### Corpora: 
 
 Bushire Residency papers 
 
 
-## Digital exhibits: 
+### Digital exhibits: 
 
 [Discovering the Empty Quarter](http://djwrisley.hosting.nyu.edu/Philby/exhibits/show/eq/introduction)
 
