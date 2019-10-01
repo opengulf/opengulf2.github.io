@@ -2,31 +2,32 @@
 
 OpenGulf is set of interconnected digital projects focusing on historical documentation about the Gulf. OpenGulf was launched in the Arts and Humanities Division of NYU Abu Dhabi. The projects publishes open historical datasets, corpora and digital exhibits with the aim of opening Gulf Studies to digital historical exploration, analysis and interpretation. 
 
-## Projects
+### Projects
 
 
-### Open Datasets: 
+## Open Datasets: 
 
-Geographic annotations 
+# Geographic annotations 
+- Lorimer's _Gazetteer of the Persian Gulf, Oman and Central Arabia_
+- Jomard's _Notice Géographique sur le pays de Nedjd ou Arabie Centrale_
+- historical maps
+
+# Environmental data 
 - John Gordon Lorimer's _Gazetteer of the Persian Gulf, Oman and Central Arabia_
--
 
-Environmental data 
-- John Gordon Lorimer's _Gazetteer of the Persian Gulf, Oman and Central Arabia_
-
-Travel itineraries of Western orientalists to Arabia (future) 
+# Travel itineraries of Western orientalists to Arabia
 
 
-### Corpora: 
+## Corpora: 
 
 Bushire Residency papers 
 
 
-### Digital exhibits: 
+## Digital exhibits: 
 
 [Discovering the Empty Quarter](http://djwrisley.hosting.nyu.edu/Philby/exhibits/show/eq/introduction)
 
-[Exploring Lorimer](http://djwrisley.hosting.nyu.edu/lorimer/s/exploring/page/home)
+Exploring Lorimer
 
 
 
