@@ -1,6 +1,6 @@
 ## Welcome to OpenGulf
 
-OpenGulf is set of interconnected digital projects. OpenGulf was launched in the Arts and Humanities Division of NYU Abu Dhabi focusing on historical documentation about the Gulf through a quantitative lens. The projects publishes open historical datasets, corpora and digital exhibits with the aim of opening Gulf Studies to digital historical exploration, analysis and interpretation. 
+OpenGulf is set of interconnected digital projects focusing on historical documentation about the Gulf. OpenGulf was launched in the Arts and Humanities Division of NYU Abu Dhabi  The projects publishes open historical datasets, corpora and digital exhibits with the aim of opening Gulf Studies to digital historical exploration, analysis and interpretation. 
 
 ### Projects
 
