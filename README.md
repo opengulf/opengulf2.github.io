@@ -19,13 +19,13 @@ Read more about OpenGulf [here](http://djwrisley.com/wp-content/uploads/2019/05/
 
 ### Travel itineraries of Western orientalists to Arabia
 
-## Abu Dhabi Calling! 
-
-The “Abu Dhabi Calling!” project shows how city directories are useful research tools for urban history in order to understand locational patterns of demographics, ethnicity and urban development in the capital city of the United Arab Emirates across two decades of late twentieth century history. 
-
 ## Corpora: 
 
 Bushire Residency papers 
+
+## Abu Dhabi Calling! 
+
+- The “Abu Dhabi Calling!” project shows how city directories are useful research tools for urban history in order to understand locational patterns of demographics, ethnicity and urban development in the capital city of the United Arab Emirates across two decades of late twentieth century history. 
 
 
 ## Digital exhibits: 
