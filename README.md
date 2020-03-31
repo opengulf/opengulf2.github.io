@@ -27,6 +27,8 @@ Bushire Residency papers
 
 - The “Abu Dhabi Calling!” project shows how city directories are useful research tools for urban history in order to understand locational patterns of demographics, ethnicity and urban development in the capital city of the United Arab Emirates across two decades of late twentieth century history. 
 
+Download our poster from the 2020 NYU Abu Dhabi Winter Institute in Digital Humanities [here](https://archive.nyu.edu/handle/2451/61212)
+
 
 ## Digital exhibits: 
 
