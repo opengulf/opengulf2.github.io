@@ -1,1 +1,36 @@
-theme: jekyll-theme-minimal
+# site settings
+title: OpenGulf
+#subtitle: by HTML5 UP
+email: opengulfNYUAD@gmail.com
+description: Exploring the Gulf through data
+baseurl: "" # the subpath of your site, e.g. /blog
+url: # the base hostname & protocol for your site
+author:
+street_address:  NYU Abu Dhabi, Saadiyat Island
+# city: Abu Dhabi
+#state: TN
+zip_code: P.O. Box 129188
+country: Abu Dhabi, UAE
+#phone: (716) 555-5555
+
+# homepage tiles
+tiles-source: posts # accepts "posts" or "pages"
+tiles-count: 6
+
+# social settings
+500px_url:
+facebook_url:
+github_url: https://github.com/opengulf
+gitlab_url: 
+#googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
+#instagram_url: https://instagram.com
+#linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+#pinterest_url:
+#slack_url:
+#twitter_url: https://twitter.com/andrewbanchich
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
