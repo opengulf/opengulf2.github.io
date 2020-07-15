@@ -11,9 +11,9 @@ nav-menu: false
     <header class="major">
       <h1>Protection of the Pearling Industry</h1>
     </header> 
-<!-- <iframe src="https://liyanibrahim.github.io/map3/webapp/#13/24.2382/55.7665" width="70%" height="400"></iframe>
+<iframe src="https://liyanibrahim.github.io/pearl3/webapp3/index.html#20/0.00029/0.00044" width="70%" height="400"></iframe>
 
 <p>
-	This map shows some of the Baraimi locations and their corresponding attributes. This data comes from the Lorimer gazetteer, Lorimer Geographical. We extracted the LAT/LNG values for the places mentioned and produced a dataset which contains the LAT/LNG values along with the quantities of the relevant attributes. The attributes were chosen by the team on the basis of using Lorimer's entries to produce meaningful, visually appealing and contextual maps.
-</p> -->
+	This is a simple map that shows the location of pearling towns and their corresponding flag of the protecting entity. The legend gives an indication of the color of the point on the map that corresponds to each country and the information for each location could be seen when clicking on each point. However, it is important to note that some of the locations listed in Lorimer's table could not be located.
+</p>
 
