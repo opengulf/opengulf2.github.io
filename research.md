@@ -62,9 +62,9 @@ nav-menu: True
 <p>
 	<ul>
 		<li> Wells on the Qatar Promontory, Filename: wells_qatar_1904-07.csv, DOI: 10.5281/zenodo.3955081</li>
-		<li> Date Palms and Livestock in the Historical Neighborhoods of Baraimi, Filename: palms_livestock_Buraimi.csv, DOI:10.5281/zenodo.3955081 </li>
-		<li> Flag protection of Pearling Towns in the Gulf, Filename: pearl_protection.csv, DOI:10.5281/zenodo.3955081 </li>
-		<li> Quantities of Date Palms, Filename: date_palms.csv, DOI:10.5281/zenodo.3955081</li>
+		<li> Date Palms and Livestock in the Historical Neighborhoods of Baraimi, Filename: palms_livestock_Buraimi.csv, DOI: 10.5281/zenodo.3955081 </li>
+		<li> Flag protection of Pearling Towns in the Gulf, Filename: pearl_protection.csv, DOI: 10.5281/zenodo.3955081 </li>
+		<li> Quantities of Date Palms, Filename: date_palms.csv, DOI: 10.5281/zenodo.3955081</li>
 </ul>
 </p>
 <p> <i>Last update: 15 July 2020</i>
