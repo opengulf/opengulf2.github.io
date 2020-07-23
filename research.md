@@ -49,8 +49,8 @@ nav-menu: True
 <h3 id="content">Publications</h3>
 <p>
 	<ul>
-		<li><a href="/openGulf2019.html" class="link" >"The Open Gulf Project" NYU Abu Dhabi Arts and Humanities Division Research Report, May 2019</a></li>
-		<li><a href="/ADC!.html" class="link" > Mirza, M.W. and Wrisley, D.J. Abu Dhabi Calling!: A Pilot Investigation of Spatial Patterns in Phone Directories. Winter Institute in Digital Humanities, January 2020</a></li>
+		<li><a href="../openGulf2019" class="link" >"The Open Gulf Project" NYU Abu Dhabi Arts and Humanities Division Research Report, May 2019</a></li>
+		<li><a href="../ADC!" class="link" > Mirza, M.W. and Wrisley, D.J. Abu Dhabi Calling!: A Pilot Investigation of Spatial Patterns in Phone Directories. Winter Institute in Digital Humanities, January 2020</a></li>
 	</ul>
 </p>
 
@@ -61,10 +61,10 @@ nav-menu: True
 </p>
 <p>
 	<ul>
-		<li> Wells on the Qatar Promontory, Filename: wells_qatar_1904-07.csv, DOI: </li>
-		<li> Date Palms and Livestock in the Historical Neighborhoods of Baraimi, Filename: palms_livestock_Buraimi.csv, DOI: </li>
-		<li> Flag protection of Pearling Towns in the Gulf, Filename: pearl_protection.csv, DOI: </li>
-		<li> Quantities of Date Palms, Filename: date_palms.csv, DOI:</li>
+		<li> Wells on the Qatar Promontory, Filename: wells_qatar_1904-07.csv, DOI: 10.5281/zenodo.3955081</li>
+		<li> Date Palms and Livestock in the Historical Neighborhoods of Baraimi, Filename: palms_livestock_Buraimi.csv, DOI:10.5281/zenodo.3955081 </li>
+		<li> Flag protection of Pearling Towns in the Gulf, Filename: pearl_protection.csv, DOI:10.5281/zenodo.3955081 </li>
+		<li> Quantities of Date Palms, Filename: date_palms.csv, DOI:10.5281/zenodo.3955081</li>
 </ul>
 </p>
 <p> <i>Last update: 15 July 2020</i>

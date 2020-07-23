@@ -1,73 +1,51 @@
-# Forty - Jekyll Theme
+# Welcome to OpenGulf
 
-A Jekyll version of the "Forty" theme by [HTML5 UP](https://html5up.net/).  
+OpenGulf is set of interconnected digital projects focusing on historical documentation about the Gulf. OpenGulf was launched in the Arts and Humanities Division of NYU Abu Dhabi. The projects publish open historical datasets, corpora and digital exhibits with the aim of opening Gulf Studies to digital historical exploration, analysis and interpretation in the service of open research and pedagogy. 
 
-![Forty Theme](assets/images/forty.jpg "Forty Theme")
+Read more about OpenGulf [here](http://djwrisley.com/wp-content/uploads/2019/05/Open-Gulf-May-2019.pdf)
 
-# How to Use
-
-For those unfamiliar with how Jekyll works, check out [jekyllrb.com](https://jekyllrb.com/) for all the details, 
-or read up on just the basics of [front matter](https://jekyllrb.com/docs/frontmatter/), [writing posts](https://jekyllrb.com/docs/posts/), 
-and [creating pages](https://jekyllrb.com/docs/pages/).
-
-- **GitLab**: Simply fork this repository and start editing the `_config.yml` file!  
-- **GitHub**: Fork this repository and create a branch named `gh-pages`, then start editing the `_config.yml` file.
-
-# Added Features
-
-* **[Formspree.io](https://formspree.io/) contact form integration** - just add your email to the `_config.yml` and it works!
-* Use `_config.yml` to **set whether the homepage tiles should pull pages or posts**, as well as how many to display.
-* Add your **social profiles** easily in `_config.yml`. Only social profiles buttons you enter in `config.yml` show up on the site footer!
-* Set **featured images** in front matter.
-
-# Issues
-
-If you would like to report a bug, ask a question, request a feature, feel free to do so on [the GitLab repository](https://gitlab.com/andrewbanchich/forty-jekyll-theme) and I will be more than happy to help!
-
-Alternatively, you can open an issue via email by emailing [incoming+andrewbanchich/forty-jekyll-theme@incoming.gitlab.com](mailto:incoming+andrewbanchich/forty-jekyll-theme@incoming.gitlab.com).
-
-The GitHub repository is simply a mirror of the GitLab repository.
-
-# Credits
-
-Original README from HTML5 UP:
-
-```
-Forty by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# Projects
 
 
-This is Forty, my latest and greatest addition to HTML5 UP and, per its incredibly
-creative name, my 40th (woohoo)! It's built around a grid of "image tiles" that are
-set up to smoothly transition to secondary landing pages (for which a separate page
-template is provided), and includes a number of neat effects (check out the menu!),
-extra features, and all the usual stuff you'd expect. Hope you dig it!
+## Open Datasets: 
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+### Geographic annotations 
+- Lorimer's _Gazetteer of the Persian Gulf, Oman and Central Arabia_
+- Jomard's _Notice Géographique sur le pays de Nedjd ou Arabie Centrale_
+- historical maps
 
-(* = not included)
+### Environmental data 
+- John Gordon Lorimer's _Gazetteer of the Persian Gulf, Oman and Central Arabia_
 
-AJ
-aj@lkn.io | @ajlkn
+### Travel itineraries of Western orientalists to Arabia
+
+## Corpora: 
+
+Bushire Residency papers 
+
+## Abu Dhabi Calling! 
+
+- The “Abu Dhabi Calling!” project shows how city directories are useful research tools for urban history in order to understand locational patterns of demographics, ethnicity and urban development in the capital city of the United Arab Emirates across two decades of late twentieth century history. 
+
+Download our poster from the 2020 NYU Abu Dhabi Winter Institute in Digital Humanities [here](https://archive.nyu.edu/handle/2451/61212)
 
 
-Credits:
+## Digital exhibits: 
 
-	Demo Images:
-		Unsplash (unsplash.com)
+[Discovering the Empty Quarter](http://djwrisley.hosting.nyu.edu/Philby/exhibits/show/eq/introduction)
 
-	Icons:
-		Font Awesome (fortawesome.github.com/Font-Awesome)
+Exploring Lorimer
 
-	Other:
-		jQuery (jquery.com)
-		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
-		background-size polyfill (github.com/louisremi)
-		Misc. Sass functions (@HugoGiraudel)
-		Respond.js (j.mp/respondjs)
-		Skel (skel.io)
-```
 
-Repository [Jekyll logo](https://github.com/jekyll/brand) icon licensed under a [Creative Commons Attribution 4.0 International License](http://choosealicense.com/licenses/cc-by-4.0/).
+
+## Project Co-Directors
+
+Nora Barakat (Assistant Professor of History/Arab Crossroads Studies, NYU Abu Dhabi) 
+
+David Joseph Wrisley (Associate Professor of Digital Humanities, NYU Abu Dhabi)
+
+
+
+#### Contact Us 
+
+Questions about the project? Interested in participating? opengulfNYUAD@gmail.com
