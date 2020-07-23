@@ -9,12 +9,11 @@ nav-menu: false
 <section id="one">
   <div class="inner">
     <header class="major">
-      <h1>Historical Neighborhoods of Buraimi (Baraimi) map</h1>
+      <h1>Date Palm map</h1>
     </header> 
 <iframe src="https://liyanibrahim.github.io/dates_Bah/web/index.html#12/26.1725/50.5472" width="80%" height="800"></iframe>
 
 <p>
-<<<<<<< HEAD
 	<b>How to explore this map:</b> Click on the points to learn about the locations of date palms in Bahrain (and their quantities) documented in John Gordon Lorimer's <a href="https://en.wikipedia.org/wiki/Gazetteer_of_the_Persian_Gulf,_Oman_and_Central_Arabia" class="link">Gazetteer of the Persian Gulf, Oman and Central Arabia</a>
 
 </p>
@@ -50,8 +49,4 @@ nav-menu: false
 	<b>Suggested Citation:</b> OpenGulf Project (2020). Protection of the Pearling Industry Map. https://opengulf.github.io/dates.html. Accessed xxxx.yy.zz. 10.5281/zenodo.3955081
 </p>
 <i>Last update: 23 July 2020</i>
-=======
-
-</p> -->
->>>>>>> daa75ec19de3cbdcf0eaa5cafeed0401c4c767ff
 
