@@ -61,13 +61,13 @@ nav-menu: True
 </p>
 <p>
 	<ul>
-		<li> Wells on the Qatar Promontory, Filename: wells_qatar_1904-07.csv, DOI: 10.5281/zenodo.3955081</li>
-		<li> Date Palms and Livestock in the Historical Neighborhoods of Baraimi, Filename: palms_livestock_Buraimi.csv, DOI: 10.5281/zenodo.3955081 </li>
-		<li> Flag protection of Pearling Towns in the Gulf, Filename: pearl_protection.csv, DOI: 10.5281/zenodo.3955081 </li>
-		<li> Quantities of Date Palms, Filename: date_palms.csv, DOI: 10.5281/zenodo.3955081</li>
+		<li> Wells on the Qatar Promontory, Filename: <a href="https://github.com/opengulf/Lorimer_data/blob/master/wells_qatar_1904-07.csv" class="link">wells_qatar_1904-07.csv</a>, DOI: 10.5281/zenodo.3955081</li>
+		<li> Date Palms and Livestock in the Historical Neighborhoods of Baraimi, Filename: <a href="https://github.com/opengulf/Lorimer_data/blob/master/palms_livestock_Buraimi.csv" class="link">palms_livestock_Buraimi.csv</a>, DOI: 10.5281/zenodo.3955081 </li>
+		<li> Flag protection of Pearling Towns in the Gulf, Filename: <a href="https://github.com/opengulf/Lorimer_data/blob/master/pearl_protection.csv" class="link">pearl_protection.csv</a>, DOI: 10.5281/zenodo.3955081 </li>
+		<li> Quantities of Date Palms in Bahrain, Filename: <a href="https://github.com/opengulf/Lorimer_data/blob/master/BH_date_palms.csv" class="link">BH_date_palms.csv</a>, DOI: 10.5281/zenodo.3955081</li>
 </ul>
 </p>
-<p> <i>Last update: 15 July 2020</i>
+<p> <i>Last update: 23 July 2020</i>
 </p>
  
 
