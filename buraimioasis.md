@@ -11,7 +11,7 @@ nav-menu: false
     <header class="major">
       <h1>Buraimi Oasis</h1>
     </header> 
-<iframe src="https://liyanibrahim.github.io/buraimi/webapp3/index.html" width="70%" height="400"></iframe>
+<iframe src="https://liyanibrahim.github.io/buraimi/webapp3/index.html" width="100%" height="400"></iframe>
 
 <p>
 	<b>How to explore this map:</b>This map has multiple layers that you can turn on and off using the legend (upper right). It represents the homes, date palms and the animals that are documented in John Gordon Lorimer's <a href="https://en.wikipedia.org/wiki/Gazetteer_of_the_Persian_Gulf,_Oman_and_Central_Arabia" class="link"> Gazetteer of the Persian Gulf, Oman and Central Arabia</a> for the historical neighborhoods of Buraimi.  Click on the picture icon and you will see a breakdown of the data for each of the neighborhoods in the pop-up box.
