@@ -11,7 +11,7 @@ nav-menu: false
     <header class="major">
       <h1>Date Palm map</h1>
     </header> 
-<iframe src="https://liyanibrahim.github.io/dates_Bah/web/index.html#12/26.1725/50.5472" width="80%" height="800"></iframe>
+<iframe src="https://liyanibrahim.github.io/dates_Bah/web/index.html#12/26.1725/50.5472" width="100%" height="800"></iframe>
 
 <p>
 	<b>How to explore this map:</b> Click on the points to learn about the locations of date palms in Bahrain (and their quantities) documented in John Gordon Lorimer's <a href="https://en.wikipedia.org/wiki/Gazetteer_of_the_Persian_Gulf,_Oman_and_Central_Arabia" class="link">Gazetteer of the Persian Gulf, Oman and Central Arabia</a>
@@ -43,7 +43,7 @@ nav-menu: false
 <p>
 	<b>License for this map (including map data):</b> <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="link">Creative Commons 4.0 BY-NC-SA International</a> <br>
 	<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" 
-	src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>
+	src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 </p>
 <p>
 	<b>Suggested Citation:</b> OpenGulf Project (2020). Protection of the Pearling Industry Map. https://opengulf.github.io/dates.html. Accessed xxxx.yy.zz. 10.5281/zenodo.3955081
