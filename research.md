@@ -41,9 +41,10 @@ nav-menu: True
 <h3 id="content">Conference Presentations</h3>
 <p>
 	<ul>
-		<li>Nora Barakat, Elham Fakhro, Nelida Fuccaro and David Joseph Wrisley,  “Mapping Lorimer: Using Digital Methods to Explore the Discursive Construction of Gulf Space, Societies and Cultures/Economies” Exeter Center for Gulf Studies Conference, Exeter, UK, 2 July 2018</li>
+		<li>Nora Barakat, Elham Fakhro, Nelida Fuccaro and David Joseph Wrisley, "Mapping Lorimer: Using Digital Methods to Explore the Discursive Construction of Gulf Space, Societies and Cultures/Economies” Exeter Center for Gulf Studies Conference, Exeter, UK, 2 July 2018</li>
 		<li>Nora Barakat, David Joseph Wrisley. "Open Gulf: Collating the Imperial Knowledge of Historical Gazetteers of Arabia,"  MESA, New Orleans, 17 November 2019.</li>
 		<li>Nora Barakat, David Joseph Wrisley. “Open Gulf and Global Asia” at Port City Environments in Global Asia: Luce Abu Dhabi Gathering, NYU Abu Dhabi, 15 January 2020.</li>
+		<li>Nada Ammagui, Nora Barakat, Liyan Ibrahim, Suphan Kirmizialtin, Gurgen Tadevosyan and David Joseph Wrisley, "Team-Based Manipulation of Digitally Available Texts in a Remote Environment: Notes on Research and Pedagogy" Middle East Librarians Association 2020 Annual Meeting. 8-9 October 2020.</li>
 	</ul>
 </p>
 <h3 id="content">Publications</h3>
