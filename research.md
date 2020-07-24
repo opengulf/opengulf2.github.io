@@ -33,7 +33,7 @@ nav-menu: True
 <h3 id="content">Transcriptions</h3>
 <p>
 	<ul>
-		<li>350 Pages | nearly 100 letters/documents</li>
+		<li>350 Pages | nearly 100 letters</li>
 	</ul>
 
 </p>
