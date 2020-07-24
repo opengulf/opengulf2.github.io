@@ -11,7 +11,7 @@ nav-menu: false
     <header class="major">
       <h1>Wells on the Qatar Promontory</h1>
     </header> 
-<iframe src="https://liyanibrahim.github.io/wells_new/webapp4/index.html" width="60%" height="600"></iframe>
+<iframe src="https://liyanibrahim.github.io/wells_new/webapp4/index.html" width="100%" height="600"></iframe>
 
 <p>
 	<b>How to explore this map:</b> This map has only one layer. It represents locations of wells on the Qatar Promontory in the early twentieth century. The points on the map represent the location of the wells and the color of the point indicates the quality of water as indicated by John Gordon Lorimer's <a href="https://en.wikipedia.org/wiki/Gazetteer_of_the_Persian_Gulf,_Oman_and_Central_Arabia" class="link">Gazetteer of the Persian Gulf, Oman and Central Arabia</a> in the early twentieth century. You can hover over each of the points to get more information about the location of the wells, their depth and construction. 
@@ -62,10 +62,10 @@ nav-menu: false
 <p>
 	<b>License:</b> <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="link">Creative Commons 4.0 BY-NC-SA International</a> <br>
 	<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" 
-	src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>
+	src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 </p>
 <p>
 	<b>Suggested Citation:</b> OpenGulf Project (2020). Protection of the Pearling Industry Map. https://opengulf.github.io/wells.html. Accessed xxxx.yy.zz. 10.5281/zenodo.3955081
 </p>
-<i>Last update: 23 July 2020</i>
+<i>Last update: 24 July 2020</i>
 
