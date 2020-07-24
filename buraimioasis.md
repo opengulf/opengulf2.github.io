@@ -40,10 +40,9 @@ nav-menu: false
 	<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 </p>
 <p>
-	<b>Suggested Citation:</b> OpenGulf Project (2020). Map of Historical Neighborhoods of Buraimi (Baraimi). https://opengulf.github.io/buraimioasis.html. Accessed xxxx.yy.zz. <br>
-	10.5281/zenodo.3955081
+	<b>Suggested Citation:</b> OpenGulf Project (2020). Map of Historical Neighborhoods of Buraimi (Baraimi). https://opengulf.github.io/buraimioasis.html. Accessed xxxx.yy.zz. 10.5281/zenodo.3955081<br>
 </p>
-<i>Last update: 23 July 2020</i>
+<i>Last update: 24 July 2020</i>
 
 
 
