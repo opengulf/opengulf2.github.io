@@ -70,7 +70,7 @@ nav-menu: True
 		<li> Quantities of Date Palms in Bahrain, Filename: <a href="https://github.com/opengulf/Lorimer_data/blob/master/BH_date_palms.csv" class="link">BH_date_palms.csv</a>, DOI: 10.5281/zenodo.3955081</li>
 </ul>
 </p>
-<p> <i>Last update: 23 July 2020</i>
+<p> <i>Last update: 9 Dec 2020</i>
 </p>
  
 
