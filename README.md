@@ -40,7 +40,7 @@ Exploring Lorimer
 
 ## Project Co-Directors
 
-Nora Barakat (Assistant Professor of History/Arab Crossroads Studies, NYU Abu Dhabi) 
+Nora Barakat (Assistant Professor of History, Stanford) 
 
 David Joseph Wrisley (Associate Professor of Digital Humanities, NYU Abu Dhabi)
 
