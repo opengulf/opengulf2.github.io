@@ -15,5 +15,5 @@ nav-menu: true
 
 <!-- Content -->
 <h2 id="content">About OpenGulf</h2>
-<p>OpenGulf is set of interconnected digital projects focusing on historical documentation about the Gulf. OpenGulf was launched in the<a href="https://nyuad.nyu.edu/en/academics/divisions/arts-and-humanities.html" class="link"> Arts and Humanities Division</a> of NYU Abu Dhabi. The projects publish open historical datasets, corpora and digital exhibits with the aim of opening Gulf Studies to digital historical exploration, analysis and interpretation in the service of open research and pedagogy.</p>
+<p>OpenGulf is a transdisciplinary research group focusing on historical documentation about the Gulf. OpenGulf was launched in the<a href="https://nyuad.nyu.edu/en/academics/divisions/arts-and-humanities.html" class="link"> Arts and Humanities Division</a> of NYU Abu Dhabi. The projects publish open historical datasets, corpora and digital exhibits with the aim of opening Gulf Studies to digital historical exploration, analysis and interpretation in the service of open research and pedagogy.</p>
 <!-- <p> Read more about OpenGulf <a herf="https://djwrisley.com/wp-content/uploads/2019/05/Open-Gulf-May-2019.pdf">here </a> -->
