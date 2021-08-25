@@ -17,7 +17,7 @@ nav-menu: false
 	<b>Alma Kapan</b> 
 	<br>
 	<b>8-8-2021</b>
-<h3 style="font-size: 18px; text-align: center">I. Project Motivation<h3>
+<h3 style="font-size: 18px; text-align: center">I. Project Motivation</h3>
 <p> 
 This project sits at the intersection of Data Mining, Digital Humanities and Natural Language Processing, particularly, Information Extraction. We aim at detecting the geographical Named Entities from the John G. Lorimer's Gazetteer of the Persian Gulf, Central Arabia and Oman, a canonical artifact of British imperial knowledge production about the Gulf region, including contemporary Iran, Iraq and the GCC states. The dataset includes more than 800 text files pertaining to each geographical location. View more details about the dataset <a href="https://opengulf.github.io/lorimer/" class="link">here</a>.</p> 
 <p> 
@@ -27,7 +27,7 @@ Moreover, the Gazetteer has an incomparably diverse and extensive set of geograp
 <a href="https://asistdl.onlinelibrary.wiley.com/doi/full/10.1002/bult.2012.1720380406" class="link">paper</a>. 
 </p>
 
-<h3 style="font-size: 18px; text-align: center"> II. What is NER and its importance<h3>
+<h3 style="font-size: 18px; text-align: center"> II. What is NER and its importance</h3>
 <p>
 Named Entity Recognition (NER) is the task of locating, extracting and classifying names with a specific set of named entity types (e.g. Person, Organization, Location). This task can be broken down into two sub-tasks: identifying the boundaries of the named entity and identifying its type. Below are the most common types of Named Entities that are supported by NLTK,  Stanford CoreNLP and other libraries. 
 
