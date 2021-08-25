@@ -6,11 +6,6 @@ description: Lorimer Information
 nav-menu: false
 ---
 <head>
-	<style>
-		p{
-			text-indent: 10%;
-		}
-	</style>
 </head>
 <section id="one">
 	<div class="inner">
@@ -22,54 +17,121 @@ nav-menu: false
 	<b>Alma Kapan</b> 
 	<br>
 	<b>8-8-2021</b>
-
+<h3 style="font-size: 18px; text-align: center">I. Project Motivation<h3>
 <p> 
-	John G. Lorimer, the British civil servant who compiled a 5,000-page, two-volume secret encyclopedia entitled <i>Gazetteer of the Persian Gulf, Oman and Central Arabia</i>, created originally in 1908 and declassified in 1955, covered extensive ground with a team of British and native agents across India and the Gulf to assemble his historical text and geographical index of the Arabian Peninsula and Gulf region. While this text, in its comprehensive nature and detailed observations, is of great significance to scholars and researchers working within this geographical scope, what was of interest to me as I spent the past several weeks annotating it was the enduring presence of the village names mentioned in the text and the potential legacy of the <i>Gazetteer</i> today.
+This project sits at the intersection of Data Mining, Digital Humanities and Natural Language Processing, particularly, Information Extraction. We aim at detecting the geographical Named Entities from the John G. Lorimer's Gazetteer of the Persian Gulf, Central Arabia and Oman, a canonical artifact of British imperial knowledge production about the Gulf region, including contemporary Iran, Iraq and the GCC states. The dataset includes more than 800 text files pertaining to each geographical location. View more details about the dataset <a href="https://opengulf.github.io/lorimer/" class="link">here</a>.</p> 
+<p> 
+Whereas a group of researchers have been annotating the Gazetteer manually and in a semi-automated way using Recogito, an NER system with higher levels of automation would enable a more in-depth and computational approach to the analysis of the data. In particular, an automated NER system enables the extraction of an unprecedented amount of information in a short span of time and helps to navigate some of the limitations common for manual and semi-automated systems (continuous inter-annotation collaboration, time and labor constraints). Moreover, the output of the automated system, the dictionary of Named Entities from all text files allows reevaluating existing assumptions about the data, finding new patterns and answering research questions that would be considerably difficult to answer before (e.g. "How often text about location A references  location B?", "what is the connection between the text files" etc.). </p> 
+<p> 
+Moreover, the Gazetteer has an incomparably diverse and extensive set of geographical named entities that could be of great use for future visualization and data mining projects. You can also learn more about similar Data Mining projects in Humanities in this 
+<a href="https://asistdl.onlinelibrary.wiley.com/doi/full/10.1002/bult.2012.1720380406" class="link">paper</a>. 
 </p>
+
+<h3 style="font-size: 18px; text-align: center"> II. What is NER and its importance<h3>
 <p>
-	Taking Lorimer’s <a href="https://archive.org/details/in.ernet.dli.2015.206964/page/n1967/mode/2up" class="link">article</a> on Wādi Tāyīn (وادي طايين) for instance, in Volume II: Geographical and Statistical starting on page 1875, it becomes clear that very few of the names that he lists in this article have changed, rendering my task of annotating toponyms with geographical coordinates a great deal easier. In an annotation tool called <a href="https://recogito.pelagios.org/" class="link">Recogito</a>, after realizing that Lorimer’s list of villages follows a contemporary road called Route 25 in southeastern Oman that leads to the Wādi in question, all I had to do in order to annotate the historical text was to follow along this road and identify each village as I headed to the end of the Wādi. In his list of “principal places in or directly connected with Wādi Tāyīn,” Lorimer lists 23 villages, their locations relative to the Wādi and surrounding villages, their physical attributes, the families that live in each village, and natural resources (1908 edition, p. 1875).
+Named Entity Recognition (NER) is the task of locating, extracting and classifying names with a specific set of named entity types (e.g. Person, Organization, Location). This task can be broken down into two sub-tasks: identifying the boundaries of the named entity and identifying its type. Below are the most common types of Named Entities that are supported by NLTK,  Stanford CoreNLP and other libraries. 
+
 </p>
-<p>
-	When I began noticing that each village followed the previous one on the somewhat circular Route 25—and later on a smaller road that leads to Wādi Khabbah (وادي خبّه)—I sought to visualize a path connecting the towns and to map a potential route that Lorimer or one of his informants might have taken in their trips to the region. Although the text makes no explicit mention of Route 25 or of an extant path, this coincidence struck me. Beginning with Ba’ad on the left, a village that falls about halfway across the upper semicircle of Route 25, I connected the villages listed by Lorimer in geographic order, tracing the path created by this route.<br>
-	<figure>
-	<img src="../assets/images/nadasblog.jpg" style="width:500px;height:300px;">
-	<figcaption><i>Google Map showing Route 25 and villages leading to Wādi Tāyīn</i></figcaption>
+<figure>
+  <img src="../assets/images/almablog1.png" style="width:500px;
+height:300px;">
+  <figcaption>Figure 1. This table shows common Named Entities and their types. Credits to <a href="https://www.nltk.org/book">NLTK</a>.
+</figcaption>
 </figure>
-</p>
+
 <p>
-	 The initial, pleasant surprise of the alignment of these villages with Route 25 inspired me to look more closely into the contemporary significance of this route. Given that only one of the 23 villages is listed by Lorimer as “practically depopulated” and “[having] ceased to exist as a village,” I assumed that the rest still existed today (p. 1878). A simple Google search of “Route 25 Oman'' yielded countless travel blogs that recommended walking and trekking itineraries along Route 25 leading to Wādi Dima wa Tāyīn, a name given to the area where the two wadis meet. I was struck not only by the consistency of these particular toponyms over time, but by the continuity of the descriptions of these areas by the Gazetteer and by tourists today.
-</p>
+	NER has valuable applications for many important NLP tasks with the most impactful being Information Retrieval, a task of identifying and retrieving documents based on a query (e.g. Google search). IR can benefit from NER in two ways: recognizing named entities (NEs) within the searched documents, and then extracting the relevant documents considering their classified NEs and how they are related to the query (Rosso 2009a).</p>
 <p>
-	In order to trace this line, I started by creating a simple Google Map containing each of the villages listed by Lorimer, in geographical order, using latitudinal and longitudinal coordinates sourced from GeoNames. The map above suggests a potential itinerary that Lorimer may have followed; however, given that these villages were not all listed in his text in geographical order, I traced a second itinerary that follows his listing’s order so as to adhere more closely to his observations and notes. The maps below—showing just five of the villages in Lorimer’s list—indicate what this alternative route may have looked like, with a comparison to the geographically ordered map below it. I’ve created this alternative map with just five villages because these are the only ones amongst his list which do not follow geographical order.<br>
-	<figure>
+	<i>For example, the word “Aljazeera” can be tagged either as an Organization (news source) or as a Location (island) - correct NE tagging will facilitate extraction of the correct documents based on a query.</i></p>
+	<p>
+In these series of blog posts, we explore two Named Entity Recognition models: an NER model using NLTK (Natural Language Toolkit) and an NER model custom-trained for Arabic language using Spacy. 
+</p>
+<h3 style="font-size: 18px; text-align: center">
+	III. Named Entity Recognition with NLTK
+</h3>
+<h4 style="font-size: 17px; text-align: center">III. A. About NLTK and its Information Extraction architecture, as outlined by NLTK</h4>
+
+<p>
+	The Natural Language Toolkit, or more commonly NLTK, is a set of libraries written in python for Natural Language Processing for English-language texts by Steven Bird and Edward Loper at the University of Pennsylvania. NLTK is a leading platform for many NLP tasks including Named Entity Recognition, therefore, an NER model based on NLTK can serve as a good baseline. However, as authors recognize themselves (NLTK, chapter 7), it is trained primarily on English language text and, thus, does not always predict Named Entity labels and values for foreign language or transliterated texts.
+</p>
+	<!--figure>
 		<img src="../assets/images/nadasblog2.jpg" style="width:500px;height:300px;"><br>
 		<img src="../assets/images/nadasblog3.jpg" style="width:500px;height:300px;">
 		<figcaption>Both maps show the following villages: Shāt (شات) in <span style="color:#FF0000;">red</span>; Hammām (حمّام) in <span style="color:#0000FF;">blue</span>; Qurr (قرّ) in <span style="color:#FFFF00;">yellow</span>; Sibal (سبل) in <span style="color:#800080;">purple</span>; and Hida (حدا) in <span style="color:#FFA500;">orange</span>, before the path continues back along Route 25 in <span style="color:#008000;">green</span>.</figcaption>
-	</figure>
+	</figure-->
+<h4 style="font-size: 17px; text-align: center">III. B. System description</h4>
+<p>
+Naturally, our NER model based on NLTK follows the Information Extraction Architecture outlined by NLTK:
+<figure>
+  <img src="../assets/images/almablog2.png" style="width:500px;
+height:300px;">
+  <figcaption>Figure 2. A sample Information Extraction Architecture pipeline. Credits to <a href="https://www.nltk.org/
+book">NLTK</a>.
+</figcaption>
+</figure>
 </p>
 <p>
-	Though the order of the villages as he lists them inspires questions about how he may have gathered his notes or what circumstances may have caused him to go back and forth along this route—how cool is it to try to think like Lorimer (or one of the countless agents who collected data on his behalf) and to put myself in their shoes, in this time and place?—what I found more interesting in my research is the fact that the villages, in whatever order they are connected, nonetheless adhere to the path created by Route 25, or perhaps, more interestingly, created the path that Route 25 follows.
+To summarize the steps, the system starts with <b>splitting the raw text</b> into words using a tokenizer (sometimes pre-segmenting text into sentences first). Next, each sentence is tagged with <b>part-of-speech tags</b>, which will prove very helpful in the next steps: <b>chunking</b> and finally <b>named entity detection</b>.
 </p>
+<h5 style="font-size: 16px"><i>Text preprocessing</i></h5>
+<p>Firstly, to facilitate work of the classifier and convert input texts to the suitable format for NLTK, we need to preprocess input texts. After experiments and literature review, we performed the following preprocessing steps:<br/>
+a. Transliterate common Arabic letters to English letters based on the list provided by Professor Wrisley. This step was introduced after the initial run of the system showed that entities starting with an Arabic letter are not recognized; for example, the word Ārabistan is not recognized. This could be potentially explained by the fact that the NLTK model is not trained on non-English words (see more in the ‘Flaws’ section).
+<figure>
+  <img src="../assets/images/almablog3.png" style="width:500px;
+height:300px;">
+  <figcaption>Figure 3. Conversion of Arabic letters to their English counterparts.</figcaption>
+</figure>
+b. Remove stop words. Stop words are defined as words that do not have semantic importance and are commonly removed in Information Retrieval tasks. In our model, we remove stop words defined by NLTK, which usually include pronouns, articles, etc. Learn more about stop words in NLTK <a class="link" href="https://pythonprogramming.net/stop-words-nltk-tutorial/">here</a>.<br/>
+Based on the initial runs of the model, we also created our own list of stop words, which currently includes month and day of the week names. These words are recognized as a named entity by NLTK, but are not of interest for our current research questions. See figure <a href="../assets/images/almablog4.png">here</a>.
+</p>
+<h5 style="font-size: 16px"><i>Import libraries</i></h5>
+<p> 
+After preprocessing,  we import required libraries: we import nltk and also use glob, os, csv to handle file reading and writing. We load the nltk 'words' corpora to use the english language training corpus. We download the punkt library for sentence tokenization, averaged_perceptron_tagger for part of speech tagging and 'maxent_ne_chunker' for chunking the tokens using part of speech tags.
+<figure>
+  <img src="../assets/images/almablog5.png" 
+style="width:500px;
+height:300px;">
+  <figcaption>Figure 5. List of libraries required for our model.</figcaption>
+</figure>
+</p> 
+<h5 style="font-size: 16px"><i>Reading the files</i></h5>
 <p>
-	The historical implications of this reflection are manifold, but considering that the Gazetteer was written in the early 20th century, I find the tangibility and contemporary relevance of his writings in something such as a still-in-use road and the legacy of this particular itinerary as a popular path amongst trekking communities of all demographics simply fascinating. While geographical indexes such as Lorimer’s Gazetteer often feel distant and inaccessible to non-academics, by grounding these writings in approachable topics such as trekking and tourism, these historical texts and the spaces which they reference can be linked to contemporary communities whose priorities are just as spatially, geographically, and topographically oriented.
-</p>
+We first define the file path and then use the glob library to iterate through each text file in the folder. We have also created entities_filtered and entity_name arrays to store the needed information for each file and ner_full and all_entity_names arrays to store information across all files - we will write our output to a csv file. Then, we clean the filename and finally read each file as a large string.
+<figure>
+  <img src="../assets/images/almablog6.png" 
+style="width:500px;
+height:300px;">
+  <figcaption>Figure 6. Reading the input files and converting raw text to string.</figcaption>
+</figure>
+</p> 
+<h5 style="font-size: 16px"><i>Tokenization</i></h5>
+<p>
+Tokenization refers to splitting the text into tokens, which is a sequence of characters that we want to treat as a group such as hairy, his, or :). In our model, we use the built-in word_tokenize function and below is the snippet of the code and output. Notice that NLTK tokens can include words, punctuation, apostrophes etc.
+<figure>
+  <img src="../assets/images/almablog7.png" 
+style="width:500px;
+height:300px;">
+  <figcaption>Figure 7. Tokenization of the text and model output.</figcaption>
+</figure>
+</p> 
+<h5 style="font-size: 16px"><i>Part of Speech tagging</i></h5>
+<p> 
+A part-of-speech tagger, or POS-tagger, processes a sequence of words, and attaches a part of speech tag to each word. NLTK provides documentation for each tag, which can be queried using the tag, e.g. nltk.help.upenn_tagset('NN'). Some corpora have README files with tagset documentation, see nltk.corpus.corpora_name.readme(). A list of most common NLTK part of speech tags can be viewed here:
+<figure>
+  <img src="../assets/images/almablog7.png" 
+style="width:500px;
+height:300px;">
+  <figcaption>Figure 7. Tokenization of the text and model 
+output.</figcaption>
+</figure>
+</p> 
+
+
+
 	See the <a href="https://www.google.com/maps/d/u/0/viewer?mid=10lDPJuu5VnFO3ofcrBUYTWh3U6Ba-xj9&ll=23.110989824741395%2C58.662744400000015&z=10" class="link">Wadi Ta'iyin Map</a> and its corresponding <a href="https://github.com/opengulf/Lorimer_data/blob/master/Wadi_Al_Tayin.csv" class="link">dataset</a>.
 
 
 	
-
-
-
-
-
- 
-
- 
-
-
-
-
-
 
 
 
