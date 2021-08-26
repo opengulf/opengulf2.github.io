@@ -23,10 +23,10 @@ nav-menu: false
 <p> 
 This project sits at the intersection of Data Mining, Digital Humanities and Natural Language Processing, particularly, Information Extraction. We aim at detecting the geographical Named Entities from the John G. Lorimer's Gazetteer of the Persian Gulf, Central Arabia and Oman, a canonical artifact of British imperial knowledge production about the Gulf region, including contemporary Iran, Iraq and the GCC states. The dataset includes more than 800 text files pertaining to each geographical location. View more details about the dataset <a href="https://opengulf.github.io/lorimer/" class="link">here</a>.</p> 
 <p> 
-Whereas a group of researchers have been annotating the Gazetteer manually and in a semi-automated way using <a href="https://recogito.pelagios.org/">Recogito</a>, an NER system with higher levels of automation would enable a more in-depth and computational approach to the analysis of the data. In particular, an automated NER system enables the extraction of an unprecedented amount of information in a short span of time and helps to navigate some of the limitations common for manual and semi-automated systems (continuous inter-annotation collaboration, time and labor constraints). Moreover, the output of the automated system, the dictionary of Named Entities from all text files allows reevaluating existing assumptions about the data, finding new patterns and answering research questions that would be considerably difficult to answer before (e.g. "How often text about location A references  location B?", "what is the connection between the text files" etc.). </p> 
+Whereas a group of researchers have been annotating the Gazetteer manually and in a semi-automated way using <a class="link" href="https://recogito.pelagios.org/">Recogito</a>, an NER system with higher levels of automation would enable a more in-depth and computational approach to the analysis of the data. In particular, an automated NER system enables the extraction of an unprecedented amount of information in a short span of time and helps to navigate some of the limitations common for manual and semi-automated systems (continuous inter-annotation collaboration, time and labor constraints). Moreover, the output of the automated system, the dictionary of Named Entities from all text files allows reevaluating existing assumptions about the data, finding new patterns and answering research questions that would be considerably difficult to answer before (e.g. "How often text about location A references  location B?", "what is the connection between the text files" etc.). </p> 
 <p> 
 Moreover, the Gazetteer has an incomparably diverse and extensive set of geographical named entities that could be of great use for future visualization and data mining projects. You can also learn more about similar Data Mining projects in Humanities in this 
-<a href="https://asistdl.onlinelibrary.wiley.com/doi/full/10.1002/bult.2012.1720380406" class="link">paper</a>. 
+<a class="link" href="https://asistdl.onlinelibrary.wiley.com/doi/full/10.1002/bult.2012.1720380406" >paper</a>. 
 </p>
 
 <h3 style="font-size: 18px; text-align: center"> II. What is NER and its importance</h3>
@@ -37,7 +37,7 @@ Named Entity Recognition (NER) is the task of locating, extracting and classifyi
 <figure>
   <img src="../assets/images/almablog1.png" style="width:500px;
 height:300px;">
-  <figcaption>Figure 1. This table shows common Named Entities and their types. Credits to <a href="https://www.nltk.org/book">NLTK</a>.
+  <figcaption>Figure 1. This table shows common Named Entities and their types. Credits to <a class="link" href="https://www.nltk.org/book">NLTK</a>.
 </figcaption>
 </figure>
 <br/>
@@ -67,7 +67,7 @@ Naturally, our NER model based on NLTK follows the Information Extraction Archit
 <figure>
   <img src="../assets/images/almablog2.png" style="width:420px;
 height:200px;">
-  <figcaption>Figure 2. A sample Information Extraction Architecture pipeline. Credits to <a href="https://www.nltk.org/
+  <figcaption>Figure 2. A sample Information Extraction Architecture pipeline. Credits to <a class="link" href="https://www.nltk.org/
 book">NLTK</a>.
 </figcaption>
 </figure>
@@ -86,7 +86,7 @@ height:180px;">
 </figure>
 <br/>
 b. Remove stop words. Stop words are defined as words that do not have semantic importance and are commonly removed in Information Retrieval tasks. In our model, we remove stop words defined by NLTK, which usually include pronouns, articles, etc. Learn more about stop words in NLTK <a class="link" href="https://pythonprogramming.net/stop-words-nltk-tutorial/">here</a>.<br/>
-Based on the initial runs of the model, we also created our own list of stop words, which currently includes month and day of the week names. These words are recognized as a named entity by NLTK, but are not of interest for our current research questions. See figure <a href="../assets/images/almablog4.png">here</a>.
+Based on the initial runs of the model, we also created our own list of stop words, which currently includes month and day of the week names. These words are recognized as a named entity by NLTK, but are not of interest for our current research questions. See figure <a class="link" href="../assets/images/almablog4.png">here</a>.
 </p>
 <h5 style="font-size: 16px"><i>Import libraries</i></h5>
 <p> 
@@ -113,19 +113,19 @@ height:320px;">
 Tokenization refers to splitting the text into tokens, which is a sequence of characters that we want to treat as a group such as hairy, his, or :). In our model, we use the built-in word_tokenize function and below is the snippet of the code and output. Notice that NLTK tokens can include words, punctuation, apostrophes etc.
 <figure>
   <img src="../assets/images/almablog7.png" 
-style="width:300px;
-height:350px;">
+style="width:250px;
+height:300px;">
   <figcaption>Figure 7. Tokenization of the text and model output.</figcaption>
 </figure>
 </p> 
 <h5 style="font-size: 16px"><i>Part of Speech tagging</i></h5>
 <p> 
-A part-of-speech tagger, or POS-tagger, processes a sequence of words, and attaches a part of speech tag to each word. NLTK provides documentation for each tag, which can be queried using the tag, e.g. nltk.help.upenn_tagset('NN'). Some corpora have README files with tagset documentation, see nltk.corpus.corpora_name.readme(). A list of most common NLTK part of speech tags can be viewed in the <a href="https://www.researchgate.net/profile/Mitchell-Marcus-2/publication/2873803/figure/tbl1/AS:669991049392137@1536749722377/1-The-Penn-Treebank-POS-tagset.png">Penn Treebank POS tagset</a>.<br/><br/>
+A part-of-speech tagger, or POS-tagger, processes a sequence of words, and attaches a part of speech tag to each word. NLTK provides documentation for each tag, which can be queried using the tag, e.g. nltk.help.upenn_tagset('NN'). Some corpora have README files with tagset documentation, see nltk.corpus.corpora_name.readme(). A list of most common NLTK part of speech tags can be viewed in the <a class="link" href="https://www.researchgate.net/profile/Mitchell-Marcus-2/publication/2873803/figure/tbl1/AS:669991049392137@1536749722377/1-The-Penn-Treebank-POS-tagset.png">Penn Treebank POS tagset</a>.<br/><br/>
 Part of speech tagging is necessary since many words like ski and race can be used as nouns or verbs and tag information helps to extract the semantic meaning of the word. POS tags are used as input for chunking, the next step in NER recognition. Named entities usually have a tag NNP (proper noun). We use nltk’s pos_tag function and have the following output: Our pipeline produces the following output:
 <figure>
   <img src="../assets/images/almablog8.png" 
-style="width:300px;
-height:350px;">
+style="width:240px;
+height:370px;">
   <figcaption>Figure 8. Part of speech tagging of the text and model output.</figcaption>
 </figure>
 </p>
@@ -135,17 +135,17 @@ height:350px;">
 The basic technique that NLTK uses for entity recognition is called chunking, which segments and labels multi-token sequences (see figure 9). The smaller boxes show the word-level tokenization and part-of-speech tagging, while the large boxes show higher-level chunking. Each of these larger boxes is called a chunk. Like tokenization, which omits whitespace, chunking usually selects a subset of the tokens. Also like tokenization, the pieces produced by a chunker do not overlap in the source text.
 <figure>
   <img src="../assets/images/almablog9.png" 
-style="width:300px;
-height:350px;">
-  <figcaption>Figure 9. Segmentation and Labeling at both the Token and Chunk levels. Source: <a href="https://www.nltk.org/book/">NLTK textbook</a>.
+style="width:450px;
+height:100px;">
+  <figcaption>Figure 9. Segmentation and Labeling at both the Token and Chunk levels. Source: <a class="link" href="https://www.nltk.org/book/">NLTK textbook</a>.
 </figcaption>
 </figure>
 <br/>
-Chunks can also be visually represented as a tree, view a figure <a href="../assets/images/almablog9a.png">here</a>. <br/>
-Noun phrase chunking, or NP-chunking, a required step for NER , refers to searching for chunks corresponding to individual noun phrases. Chunking can be accomplished using regular expressions if we provide a sequence of tags that defines a chunk. In this project, however, we use the nltk built-in library called 'maxent_ne_chunker' to create chunks; view the figure 10 below. <br/>
+Chunks can also be visually represented as a tree, view a figure <a class="link" href="../assets/images/almablog9a.png">here</a>. <br/>
+Noun phrase chunking, or NP-chunking, a required step for NER , refers to searching for chunks corresponding to individual noun phrases. Chunking can be accomplished using regular expressions if we provide a sequence of tags that defines a chunk. In this project, however, we use the nltk built-in library called 'maxent_ne_chunker' to create chunks; view the figure 10 below. <br/><br/>
 <figure>
   <img src="../assets/images/almablog10.png" 
-style="width:250px;
+style="width:240px;
 height:410px;">
 <figcaption>Figure 10. Chunking tagged words and model output. </figcaption>
 </figure>
@@ -170,8 +170,8 @@ access NEs across all files.
 
 <figure>
   <img src="../assets/images/almablog11.png" 
-style="width:300px;
-height:350px;">
+style="width:380px;
+height:470px;">
 <figcaption>Figure 11. Named Entity classification and model output.</figcaption>
 </figure>
 </p>
@@ -192,8 +192,8 @@ height:350px;">
 In the csv file, the first column of each row is the name of the text file and each row contains a list of entities for a particular text file (view figure 13).<br/>
 <figure>
   <img src="../assets/images/almablog13.png" 
-style="width:300px;
-height:350px;">
+style="width:500px;
+height:250px;">
 <figcaption>Figure 13. Output 2: a list of all entity names.</figcaption>
 </figure>
 <br/>
@@ -201,8 +201,8 @@ height:350px;">
 Below is the code that is used to generate the output files:<br/>
 <figure>
   <img src="../assets/images/almablog14.png" 
-style="width:300px;
-height:350px;">
+style="width:390px;
+height:340px;">
 <figcaption>Figure 14. Generation of output files (figure 12 and 13).</figcaption>
 </figure>
 </p>
@@ -211,4 +211,6 @@ height:350px;">
 One of the potential weaknesses of the NLTK NER classifier is that it is trained on an English language dataset. Therefore, for texts containing non-English and transliterated words such as Lorimer's Gazetteer, NLTK does not always recognize entity names and tags correctly. Our dataset mostly includes transliterated entity names (from Arabic to English) with the majority of the entity names used in a specific historical and geographical context and, thus, less likely to appear in the NLTK's training data. Moreover, there are differences among Arabic to English transliteration formats, which further complicates the NER task for an only-English trained classifier. To address these challenges, we have created a custom-trained NER model with Spacy, which is trained based on the manually annotated dataset of entity names and labels from the Gazetteer.<br/><br/>
 There are other general (language-independent) challenges that arise with the NER task. The word North and May can be parts of named entities for DATE and LOCATION, respectively, but could both be part of a PERSON. Conversely Christian Dior looks like a PERSON but is more likely to be of type ORGANIZATION. A term like Yankee will be an ordinary modifier in some contexts, but will be marked as an entity of type ORGANIZATION in the phrase Yankee infielders. Moreover, in the named entity recognition, both the beginning and end of multi-token sequences have to be identified: NEs can be multi-word names such as Persian Gulf or Oman National Library. There is no perfect solution to these general challenges yet, however, being able to train on manually selected texts (Lorimer’s dataset) and continuously finetune the classifier based on performance allows to address most of the potential challenges.
 </p>
-    See the <a href="https://www.google.com/maps/d/u/0/viewer?mid=10lDPJuu5VnFO3ofcrBUYTWh3U6Ba-xj9&ll=23.110989824741395%2C58.662744400000015&z=10" class="link">Wadi Ta'iyin Map</a> and its corresponding <a href="https://github.com/opengulf/Lorimer_data/blob/master/Wadi_Al_Tayin.csv" class="link">dataset</a>.
+<p>
+  View the code for NER with NLTK pipeline in <a class="link" href="https://github.com/almazhankapan/opengulf">this</a> github repository.
+</p>
