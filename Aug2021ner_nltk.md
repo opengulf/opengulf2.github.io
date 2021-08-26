@@ -35,9 +35,9 @@ Named Entity Recognition (NER) is the task of locating, extracting and classifyi
 
 </p>
 <figure>
-  <img src="../assets/images/almablog1.png" style="width:500px;
-height:300px;">
-  <figcaption>Figure 1. This table shows common Named Entities and their types. Credits to <a class="link" href="https://www.nltk.org/book">NLTK</a>.
+  <img src="../assets/images/almablog1.png" style="width:450px;
+height:150px;">
+  <figcaption>Figure 1. This table shows common Named Entities and their types. Source: <a class="link" href="https://www.nltk.org/book">NLTK textbook</a>.
 </figcaption>
 </figure>
 <br/>
@@ -56,19 +56,14 @@ In these series of blog posts, we explore two Named Entity Recognition models: a
 <p>
 	The Natural Language Toolkit, or more commonly NLTK, is a set of libraries written in python for Natural Language Processing for English-language texts by Steven Bird and Edward Loper at the University of Pennsylvania. NLTK is a leading platform for many NLP tasks including Named Entity Recognition, therefore, an NER model based on NLTK can serve as a good baseline. However, as authors recognize themselves (NLTK, chapter 7), it is trained primarily on English language text and, thus, does not always predict Named Entity labels and values for foreign language or transliterated texts.
 </p>
-	<!--figure>
-		<img src="../assets/images/nadasblog2.jpg" style="width:500px;height:300px;"><br>
-		<img src="../assets/images/nadasblog3.jpg" style="width:500px;height:300px;">
-		<figcaption>Both maps show the following villages: Shāt (شات) in <span style="color:#FF0000;">red</span>; Hammām (حمّام) in <span style="color:#0000FF;">blue</span>; Qurr (قرّ) in <span style="color:#FFFF00;">yellow</span>; Sibal (سبل) in <span style="color:#800080;">purple</span>; and Hida (حدا) in <span style="color:#FFA500;">orange</span>, before the path continues back along Route 25 in <span style="color:#008000;">green</span>.</figcaption>
-	</figure-->
 <h4 style="font-size: 17px; text-align: center">III. B. System description</h4>
 <p>
 Naturally, our NER model based on NLTK follows the Information Extraction Architecture outlined by NLTK:
 <figure>
   <img src="../assets/images/almablog2.png" style="width:420px;
 height:200px;">
-  <figcaption>Figure 2. A sample Information Extraction Architecture pipeline. Credits to <a class="link" href="https://www.nltk.org/
-book">NLTK</a>.
+  <figcaption>Figure 2. A sample Information Extraction Architecture pipeline. Source: <a class="link" href="https://www.nltk.org/
+book">NLTK textbook</a>.
 </figcaption>
 </figure>
 </p>
@@ -82,7 +77,7 @@ a. Transliterate common Arabic letters to English letters based on the list prov
 <figure>
   <img src="../assets/images/almablog3.png" style="width:500px;
 height:180px;">
-  <figcaption>Figure 3. Conversion of Arabic letters to their English counterparts.</figcaption>
+  <figcaption>Figure 3. Conversion of Arabic letters to their English counterparts. Credits to Professor David Wrisley.</figcaption>
 </figure>
 <br/>
 b. Remove stop words. Stop words are defined as words that do not have semantic importance and are commonly removed in Information Retrieval tasks. In our model, we remove stop words defined by NLTK, which usually include pronouns, articles, etc. Learn more about stop words in NLTK <a class="link" href="https://pythonprogramming.net/stop-words-nltk-tutorial/">here</a>.<br/>
@@ -95,7 +90,7 @@ After preprocessing,  we import required libraries: we import nltk and also use 
   <img src="../assets/images/almablog5.png" 
 style="width:340px;
 height:180px;">
-  <figcaption>Figure 5. List of libraries required for our model.</figcaption>
+  <figcaption>Figure 4. List of libraries required for our model. </figcaption>
 </figure>
 </p> 
 <h5 style="font-size: 16px"><i>Reading the files</i></h5>
@@ -105,7 +100,7 @@ We first define the file path and then use the glob library to iterate through e
   <img src="../assets/images/almablog6.png" 
 style="width:400px;
 height:320px;">
-  <figcaption>Figure 6. Reading the input files and converting raw text to string.</figcaption>
+  <figcaption>Figure 5. Reading the input files and converting raw text to string.</figcaption>
 </figure>
 </p> 
 <h5 style="font-size: 16px"><i>Tokenization</i></h5>
@@ -115,7 +110,7 @@ Tokenization refers to splitting the text into tokens, which is a sequence of ch
   <img src="../assets/images/almablog7.png" 
 style="width:250px;
 height:300px;">
-  <figcaption>Figure 7. Tokenization of the text and model output.</figcaption>
+  <figcaption>Figure 6. Tokenization of the text and model output.</figcaption>
 </figure>
 </p> 
 <h5 style="font-size: 16px"><i>Part of Speech tagging</i></h5>
@@ -126,28 +121,28 @@ Part of speech tagging is necessary since many words like ski and race can be us
   <img src="../assets/images/almablog8.png" 
 style="width:240px;
 height:370px;">
-  <figcaption>Figure 8. Part of speech tagging of the text and model output.</figcaption>
+  <figcaption>Figure 7. Part of speech tagging of the text and model output.</figcaption>
 </figure>
 </p>
 
 <h5 style="font-size: 16px"><i>Chunking</i></h5>
 <p> 
-The basic technique that NLTK uses for entity recognition is called chunking, which segments and labels multi-token sequences (see figure 9). The smaller boxes show the word-level tokenization and part-of-speech tagging, while the large boxes show higher-level chunking. Each of these larger boxes is called a chunk. Like tokenization, which omits whitespace, chunking usually selects a subset of the tokens. Also like tokenization, the pieces produced by a chunker do not overlap in the source text.
+The basic technique that NLTK uses for entity recognition is called chunking, which segments and labels multi-token sequences (see figure 8). The smaller boxes show the word-level tokenization and part-of-speech tagging, while the large boxes show higher-level chunking. Each of these larger boxes is called a chunk. Like tokenization, which omits whitespace, chunking usually selects a subset of the tokens. Also like tokenization, the pieces produced by a chunker do not overlap in the source text.
 <figure>
   <img src="../assets/images/almablog9.png" 
 style="width:450px;
 height:100px;">
-  <figcaption>Figure 9. Segmentation and Labeling at both the Token and Chunk levels. Source: <a class="link" href="https://www.nltk.org/book/">NLTK textbook</a>.
+  <figcaption>Figure 8. Segmentation and Labeling at both the Token and Chunk levels. Source: <a class="link" href="https://www.nltk.org/book/">NLTK textbook</a>.
 </figcaption>
 </figure>
 <br/>
 Chunks can also be visually represented as a tree, view a figure <a class="link" href="../assets/images/almablog9a.png">here</a>. <br/>
-Noun phrase chunking, or NP-chunking, a required step for NER , refers to searching for chunks corresponding to individual noun phrases. Chunking can be accomplished using regular expressions if we provide a sequence of tags that defines a chunk. In this project, however, we use the nltk built-in library called 'maxent_ne_chunker' to create chunks; view the figure 10 below. <br/><br/>
+Noun phrase chunking, or NP-chunking, a required step for NER , refers to searching for chunks corresponding to individual noun phrases. Chunking can be accomplished using regular expressions if we provide a sequence of tags that defines a chunk. In this project, however, we use the nltk built-in library called 'maxent_ne_chunker' to create chunks; view the figure 9 below. <br/><br/>
 <figure>
   <img src="../assets/images/almablog10.png" 
 style="width:240px;
 height:410px;">
-<figcaption>Figure 10. Chunking tagged words and model output. </figcaption>
+<figcaption>Figure 9. Chunking tagged words and model output. </figcaption>
 </figure>
 <br/>
 Take a look at the underlined output tuples containing the tokens and Named Entity tags. Note that NEs can consist of more than one word: India is tagged as GPE or Geopolitical entity and consists of one token, while Persian Gulf is a two-token NE and has a Location tag. Description of most common Named Entities is available here.<br/>
@@ -172,7 +167,7 @@ access NEs across all files.
   <img src="../assets/images/almablog11.png" 
 style="width:380px;
 height:470px;">
-<figcaption>Figure 11. Named Entity classification and model output.</figcaption>
+<figcaption>Figure 10. Named Entity classification and model output.</figcaption>
 </figure>
 </p>
 
@@ -180,16 +175,16 @@ height:470px;">
 <p> 
 Lastly, we write output of our NER model into csv files. We have two outputs from our model:
 1. A list of all entities with their names, corresponding labels and POS tags. The generated csv file is called 'all-entities.csv'.<br/>
- In the csv file (see figure 12), the name of each text file AAA precedes the table consisting of three rows: i) labels of all entities found in the file AA, ii) corresponding names of these entities and iii) Part of Speech tags of these entities.
+ In the csv file (see figure 11), the name of each text file AAA precedes the table consisting of three rows: i) labels of all entities found in the file AA, ii) corresponding names of these entities and iii) Part of Speech tags of these entities.
 <figure>
   <img src="../assets/images/almablog12.png" 
 style="width:300px;
 height:350px;">
-<figcaption>Figure 12. Output 1: a list of all entities with their names, corresponding labels and POS tags.</figcaption>
+<figcaption>Figure 11. Output 1: a list of all entities with their names, corresponding labels and POS tags.</figcaption>
 </figure>
 <br/>
 2. A list of all entity names. The generated csv file is called 'all-entity-names.csv'. This particular file has already been used at OpenGulf to retrieve a list of dominant entities for each file.
-In the csv file, the first column of each row is the name of the text file and each row contains a list of entities for a particular text file (view figure 13).<br/>
+In the csv file, the first column of each row is the name of the text file and each row contains a list of entities for a particular text file (view figure 12).<br/>
 <figure>
   <img src="../assets/images/almablog13.png" 
 style="width:500px;
@@ -203,7 +198,7 @@ Below is the code that is used to generate the output files:<br/>
   <img src="../assets/images/almablog14.png" 
 style="width:390px;
 height:340px;">
-<figcaption>Figure 14. Generation of output files (figure 12 and 13).</figcaption>
+<figcaption>Figure 13. Generation of output files (figure 11 and 12).</figcaption>
 </figure>
 </p>
 <h5 style="font-size: 16px"><i>Discussion of advantages and potential flaws of the NLTK model</i></h5>
