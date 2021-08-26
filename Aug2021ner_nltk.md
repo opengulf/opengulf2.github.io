@@ -108,7 +108,7 @@ height:320px;">
 Tokenization refers to splitting the text into tokens, which is a sequence of characters that we want to treat as a group such as hairy, his, or :). In our model, we use the built-in word_tokenize function and below is the snippet of the code and output. Notice that NLTK tokens can include words, punctuation, apostrophes etc.
 <figure>
   <img src="../assets/images/almablog7.png" 
-style="width:250px;
+style="width:230px;
 height:300px;">
   <figcaption>Figure 6. Tokenization of the text and model output.</figcaption>
 </figure>
@@ -119,8 +119,8 @@ A part-of-speech tagger, or POS-tagger, processes a sequence of words, and attac
 Part of speech tagging is necessary since many words like ski and race can be used as nouns or verbs and tag information helps to extract the semantic meaning of the word. POS tags are used as input for chunking, the next step in NER recognition. Named entities usually have a tag NNP (proper noun). We use nltk’s pos_tag function and have the following output: Our pipeline produces the following output:
 <figure>
   <img src="../assets/images/almablog8.png" 
-style="width:240px;
-height:370px;">
+style="width:260px;
+height:400px;">
   <figcaption>Figure 7. Part of speech tagging of the text and model output.</figcaption>
 </figure>
 </p>
@@ -140,8 +140,8 @@ Chunks can also be visually represented as a tree, view a figure <a class="link"
 Noun phrase chunking, or NP-chunking, a required step for NER , refers to searching for chunks corresponding to individual noun phrases. Chunking can be accomplished using regular expressions if we provide a sequence of tags that defines a chunk. In this project, however, we use the nltk built-in library called 'maxent_ne_chunker' to create chunks; view the figure 9 below. <br/><br/>
 <figure>
   <img src="../assets/images/almablog10.png" 
-style="width:240px;
-height:410px;">
+style="width:220px;
+height:390px;">
 <figcaption>Figure 9. Chunking tagged words and model output. </figcaption>
 </figure>
 <br/>
@@ -165,8 +165,8 @@ access NEs across all files.
 
 <figure>
   <img src="../assets/images/almablog11.png" 
-style="width:380px;
-height:470px;">
+style="width:390px;
+height:490px;">
 <figcaption>Figure 10. Named Entity classification and model output.</figcaption>
 </figure>
 </p>
@@ -178,8 +178,8 @@ Lastly, we write output of our NER model into csv files. We have two outputs fro
  In the csv file (see figure 11), the name of each text file AAA precedes the table consisting of three rows: i) labels of all entities found in the file AA, ii) corresponding names of these entities and iii) Part of Speech tags of these entities.
 <figure>
   <img src="../assets/images/almablog12.png" 
-style="width:300px;
-height:350px;">
+style="width:220px;
+height:340px;">
 <figcaption>Figure 11. Output 1: a list of all entities with their names, corresponding labels and POS tags.</figcaption>
 </figure>
 <br/>
@@ -187,7 +187,7 @@ height:350px;">
 In the csv file, the first column of each row is the name of the text file and each row contains a list of entities for a particular text file (view figure 12).<br/>
 <figure>
   <img src="../assets/images/almablog13.png" 
-style="width:500px;
+style="width:460px;
 height:250px;">
 <figcaption>Figure 13. Output 2: a list of all entity names.</figcaption>
 </figure>
@@ -197,7 +197,7 @@ Below is the code that is used to generate the output files:<br/>
 <figure>
   <img src="../assets/images/almablog14.png" 
 style="width:390px;
-height:340px;">
+height:320px;">
 <figcaption>Figure 13. Generation of output files (figure 11 and 12).</figcaption>
 </figure>
 </p>
