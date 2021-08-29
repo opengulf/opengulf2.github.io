@@ -15,7 +15,7 @@ nav-menu: false
     </header>
 
 <!-- Content -->
-<h2 id="content">About the Abu Dhabi Calling! Project</h2>
+<h2 id="content">Exploring Abu Dhabi phone directories (1970-2000)</h2>
 
 <p>The “Abu Dhabi Calling!” project uses city telephone directories from the capital city of the United Arab Emirates, Abu Dhabi, over the period 1970-2000 as research tools for urban history.  Through studying the telephone directory--itself a highly globalized object with its share of documentary shortcomings--we aim to understand temporal and locational patterns of markers of national belonging and religious identification in the capital city.</p>
 
@@ -24,7 +24,7 @@ nav-menu: false
 <p>The “Abu Dhabi Calling!” draws inspiration from other studies of phone directories in Western cities (Paris, New York, New Orleans) but the late twentieth-century phone book has an organizational structure imported from a Western context which is not always a perfect container for information about this non-Western city. As such, the project aims to expand the notion of historical collaborative geocoding beyond the Western urban contexts, bringing it to the study of the Arab region.</p>
 
 <img src="../assets/images/old_tel_exchanges_baqala.png" style="width:978px;height:765px;">
-<p>Reconstructing the exchange map for Abu Dhabi. Point data of corner groceries (baqala-s) from OpenStreetMap overlaid on sectors of the city (source: geosmart.dmt.gov.ae)</p>
+<p>Figure 1. Reconstructing the exchange map for Abu Dhabi. Point data of corner groceries (baqala-s) from OpenStreetMap overlaid on sectors of the city (sector datasource: geosmart.dmt.gov.ae)</p>
 
 <p>The Abu Dhabi Calling! project is using directories from the following years: 1971, 1972, 1982-83, 1984-85, 1985-86, 1987, 1989, 1990, 1992, 1993, 1995, 1997, 2004, 2004 (mobile edition), 2006 (mobile edition). If you have other years that you would like to loan our project or to gift to NYUAD Archives and Special Collections, please contact us.</p>
 
