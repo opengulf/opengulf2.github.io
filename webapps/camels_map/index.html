@@ -56,10 +56,10 @@
         var bounds_group = new L.featureGroup([]);
         function setBounds() {
         }
-        map.createPane('pane_Wikimedialabelledlayer_0');
-        map.getPane('pane_Wikimedialabelledlayer_0').style.zIndex = 400;
-        var layer_Wikimedialabelledlayer_0 = L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png', {
-            pane: 'pane_Wikimedialabelledlayer_0',
+        map.createPane('pane_OSMStandard_0');
+        map.getPane('pane_OSMStandard_0').style.zIndex = 400;
+        var layer_OSMStandard_0 = L.tileLayer('http://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            pane: 'pane_OSMStandard_0',
             opacity: 1.0,
             attribution: '',
             minZoom: 5,
