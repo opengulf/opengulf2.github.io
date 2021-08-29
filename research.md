@@ -41,6 +41,7 @@ nav-menu: True
 <h3 id="content">Conference Presentations</h3>
 <p>
 	<ul>
+		<li>David Joseph Wrisley, Prince Ampofo and Wajahat Mirza, "Finding Culture in Data Preparation: Interdisciplinarity and the Phone Book" European Association of Digital Humanities: Interdisciplinary Perspectives on Data. Siberian Federal University in Krasnoyarsk, Russia, 21-25 September 2021. 
 		<li>Nada Ammagui, Nora Barakat, Camille Cole, Moe Khalil and David Joseph Wrisley, "OpenGulf: Creating Digital Research Infrastructures for Gulf Studies" Center for Spatial and Textual Analysis (CESTA), Stanford University, 4 May 2021.</li>
 		<li>Nora Barakat and David Joseph Wrisley, "When Does it Become Open?" Engaging Open Social Scholarship (INKE), 8-10 December 2020.</li>
 		<li>David Joseph Wrisley, "'The Book That Everyone Uses, But No One Reads': Phone Directories for Digital Urban History of Abu Dhabi (1970-2000)" MESA, 14 October 2020</li>
