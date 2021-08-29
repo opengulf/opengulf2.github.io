@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Coming Soon
-description: OpenGulf is evolving 
+description: OpenGulf is evolving
 
 nav-menu: false
 ---
@@ -14,11 +14,5 @@ nav-menu: false
     </header>
 
 <p>
-	We intend to explore other textual and spatial projects about the Gulf region, beginning with Itineraries of Arabia, featuring the itineraries of travellers and orientalists on the Arabian peninsula and in the Gulf region across time. 
+	The OpenGulf research group is periodically adding content to this site concerning the history and heritage of the Arabian peninsula and in the Gulf region. Check back soon!
 </p>
-
-
-
-
-
-
