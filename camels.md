@@ -14,7 +14,7 @@ nav-menu: false
 <iframe src="https://opengulf.github.io/webapps/camels_map/#6/27.167/52.273" width="100%" height="700"></iframe>
 
 <p>
-	<b>How to explore this map:</b> This map has one layer... It represents the camels that are documented in John Gordon Lorimer's <a href="https://en.wikipedia.org/wiki/Gazetteer_of_the_Persian_Gulf,_Oman_and_Central_Arabia" class="link"> Gazetteer of the Persian Gulf, Oman and Central Arabia</a> ...  Click on each dot and you will see a breakdown of the data ....  in the pop-up box.
+	<b>How to explore this map:</b> Click on each dot on the map and you will see a breakdown of the data about camels found in John Gordon Lorimer's <a href="https://en.wikipedia.org/wiki/Gazetteer_of_the_Persian_Gulf,_Oman_and_Central_Arabia" class="link"> Gazetteer of the Persian Gulf, Oman and Central Arabia</a> in the pop-up box. This map has one layer with labels for all 751 points, although all the labels are not visible (for reasons of occlusion and clutter) at all zoom levels.  
 </p>
 <p>
 	<b>Context:</b> This map's dataset is based on data extracted from the two entries of the Geographical and Statistical section of Lorimer's Gazetteer....
