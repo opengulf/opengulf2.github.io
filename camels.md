@@ -11,7 +11,7 @@ nav-menu: false
     <header class="major">
       <h1>Camels in the early 20th century Arabian Gulf</h1>
     </header>
-<iframe src="https://opengulf.github.io/webapps/camels_map/#5/27.167/52.273" width="100%" height="700"></iframe>
+<iframe src="https://opengulf.github.io/webapps/camels_map/#6/27.167/52.273" width="100%" height="700"></iframe>
 
 <p>
 	<b>How to explore this map:</b> This map has one layer... It represents the camels that are documented in John Gordon Lorimer's <a href="https://en.wikipedia.org/wiki/Gazetteer_of_the_Persian_Gulf,_Oman_and_Central_Arabia" class="link"> Gazetteer of the Persian Gulf, Oman and Central Arabia</a> ...  Click on each dot and you will see a breakdown of the data ....  in the pop-up box.
