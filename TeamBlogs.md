@@ -1,10 +1,11 @@
 ---
 layout: page
 title: Blogs
-description: Lorimer Information  
+description: Lorimer Information
 
 nav-menu: True
 ---
+
 <!-- One -->
 <section id="one">
 	<div class="inner">
@@ -21,7 +22,8 @@ nav-menu: True
 		<li><a href="../July2020website" class="link">Designing the OpenGulf website: process, progress and decision making <i>by Liyan Ibrahim</i></a></li>
 		<li><a href="../July2020maps" class="link"> From Digital Historical Source to Leaflet Maps <i>by Liyan Ibrahim</i></a></li>
 		<li><a href="../Aug2021ner_nltk" class="link">Named Entity Recognition in Lorimer's Gazetteer with NLTK <i> by Alma Kapan</i></a></li>
+		<li><a href="../Aug2021ner_spacy" class="link">Custom Named Entity 
+		Recognition in Lorimer's Gazetteer with Spacy <i> by Alma 
+		Kapan</i></a></li>
 
 <!-- </p> -->
-
-
