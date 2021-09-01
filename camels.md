@@ -44,6 +44,6 @@ nav-menu: false
 	<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 </p>
 <p>
-	<b>Suggested Citation:</b> OpenGulf Project (2020). Camels in the Early Twentieth-Century Arabian Gulf. https://opengulf.github.io/buraimioasis.html. Accessed xxxx.yy.zz. 10.5281/zenodo.3955081<br>
+	<b>Suggested Citation:</b> OpenGulf Project (2020). Camels in the Early Twentieth-Century Arabian Gulf. https://opengulf.github.io/camels. Accessed xxxx.yy.zz. 10.5281/zenodo.3955081<br>
 </p>
 <i>Last update: 29 August 2020</i>
