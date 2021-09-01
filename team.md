@@ -26,20 +26,22 @@ nav-menu: True
 </p>
 
 <h2 id="content"> Team Members </h2>
+
+<p>
+	Unless otherwise mentioned, team members below were from NYU Abu Dhabi at the time of their work.</p>
+
+<p>
+
 <p>
 	<ul>
 		<li><b>Nada Ammagui</b> - annotation, data analysis, mapping, transcription, research</li>
-		<li><b>Camille Cole</b> - map data creation, historical text annotation</li>
+		<li><b>Camille Cole (Cambridge U)</b> - map data creation, historical text annotation</li>
 		<li><b>Suphan Kirmizaltin</b> - automatic transcription, data modeling, HTR model creation, project design</li>
 		<li><b>Everett Pruett (NYU Kevorkian)</b> - annotation, research, data quality, Lorimer dataset team leader</li>
 
 	</ul>
 </p>
 
-<p>
-	Unless otherwise mentioned, team members below were from NYU Abu Dhabi at the time of their work.</p>
-
-<p>
 	<ul>
 
 		<li><b>Yesmine Abida</b> - annotation, research</li>
