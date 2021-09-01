@@ -23,21 +23,18 @@ nav-menu: false
 	<b>Geolocation:</b> We located the places we have in our dataset using the geographical coordinates found in <a href="https://www.geonames.org" class="link">GeoNames</a> after comparing them to the text to make sure they match Lorimer’s geographic description. We used the geographical coordinates provided by <a href="https://maps.google.com" class="link">Google Maps</a> when a place is not found in GeoNames.
 </p>
 <p>
-	<b>Notes on data decisions:</b>Non-geographic data of camels quantity were removed from the dataset. (e.g., “they now render tribute at the rate of $1 on every 5 camels”). Camels owned by nomadic tribes were not possible to link to a single location, thus were excluded from the map, but were included in the dataset.
+	<b>Notes on data decisions:</b> Non-geographic data of camels quantity were removed from the dataset. (e.g., “they now render tribute at the rate of $1 on every 5 camels”). Camels owned by nomadic tribes were not possible to link to a single location, thus were excluded from the map, but were included in the dataset.
 </p>
 <p>
 	<b>Further mapping:</b>
   This map is a prototype of a future large, historical environmental atlas of the 20th century Arabian Gulf Region. The atlas will focus on visualizing data about topics including, but not limited to, the region’s livestock, crops, temperature ranges, rainfall amounts, and plants, all documented in Lorimer’s Gazetteer.
-	<ol>
-		<li> ... </li>
-	</ol>
 </p>
 <p>
 	<b>Unidentified locations:</b>
   In building this dataset, we were unable to find 52 places, nearly all of them are in Iran. Unidentifiable places are included in the dataset and are labeled as such in column F (“Disambiguation…”).
 </p>
 <p>
-	<b>Creator of this dataset:</b>Balaqis Al-Senani
+	<b>Creator of this dataset:</b> Balaqis Al-Senani
 </p>
 <p>
 	<b>License:</b> <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="link">Creative Commons 4.0 BY-NC-SA International</a> <br>
