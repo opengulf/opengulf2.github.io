@@ -9,7 +9,7 @@ nav-menu: false
 <section id="one">
   <div class="inner">
     <header class="major">
-      <h1>Camels in the early 20th century Arabian Gulf</h1>
+      <h1>Camels in the early 20th Century Arabian Gulf</h1>
     </header>
 <iframe src="https://opengulf.github.io/webapps/camels_map/#6/27.167/52.273" width="100%" height="700"></iframe>
 
