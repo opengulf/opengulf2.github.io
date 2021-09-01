@@ -37,6 +37,9 @@ nav-menu: false
 	<b>Creator of this dataset:</b> Balaqis Al-Senani
 </p>
 <p>
+	<b>Link to this </b> <a href="https://github.com/opengulf/Lorimer_data/blob/master/camels_Arabian_Gulf.csv" class="link">dataset</a>
+</p>
+<p>
 	<b>License:</b> <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="link">Creative Commons 4.0 BY-NC-SA International</a> <br>
 	<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 </p>
