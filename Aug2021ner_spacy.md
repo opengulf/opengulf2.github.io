@@ -215,9 +215,7 @@ height:200px;">
   </h4>
 <p>
 In the next blogpost, we outline in detail the steps for setting up blank and pretrained Custom NER models with Spacy - full pipeline can be viewed <a class="link" 
-href=
-"https://github.com/opengulf/opengulf.github.io/tree/master/pipelines/ner_nltk">
-here<a>. To view a glimpse into the system, in this article, we show how Spacy’s default NER pipeline, ‘en_core’ recognizes Named Entities. You can view the code in figure 7; we use the default model to recognize Named Entities from a file called ‘abbas_bandar.txt’ from the Lorimer’s Gazetteer dataset. A detailed overview of the functions and steps will be provided in the next blogpost. We also print the list of default Named Entities recognized by the model. 
+href="https://github.com/opengulf/opengulf.github.io/tree/master/pipelines/ner_nltk">here</a>. To view a glimpse into the system, in this article, we show how Spacy’s default NER pipeline, ‘en_core’ recognizes Named Entities. You can view the code in figure 7; we use the default model to recognize Named Entities from a file called ‘abbas_bandar.txt’ from the Lorimer’s Gazetteer dataset. A detailed overview of the functions and steps will be provided in the next blogpost. We also print the list of default Named Entities recognized by the model. 
 </p>
 <figure>
   <img src="../assets/images/alma_spacy_blog/almablogSpacy7.
@@ -228,7 +226,7 @@ height:200px;">
 </figcaption>
 </figure>
 <p>
-We then use the ‘displacy’ library to visualize the NER outputs - view the results in figure 8. 
+Then, we use the ‘displacy’ library to visualize the NER outputs - view the results in figure 8. 
 </p>
 
 <figure>
