@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Maps 
-description: Collection of Maps 
+title: Maps
+description: Collection of Maps
 
 nav-menu: true
 ---
 
 <!--  <div id="main" class="alt">   -->         
 <section id="one" class="tiles">
-  
+
   <article>
     <span class="image">
       <img src="" alt="" />
@@ -44,9 +44,17 @@ nav-menu: true
       <h3><a href="../dates" class="link">Bahrain Date Palm map</a></h3>
       <p>Quantities of date palms in Bahrain according to Lorimer</p>
     </header>
-  </article> 
-  
-  
+  </article>
+  <article>
+    <span class="image">
+      <img src="" alt="" />
+    </span>
+    <header class="major">
+      <h3><a href="../camels" class="link">Camels in the 20th century Arabian Gulf</a></h3>
+      <p>A Prototype for an Environment Atlas</p>
+    </header>
+  </article>
+
 </section>
 
 <!--    </div> -->
