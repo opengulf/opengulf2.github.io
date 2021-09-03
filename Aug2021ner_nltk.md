@@ -189,7 +189,7 @@ In the csv file, the first column of each row is the name of the text file and e
   <img src="../assets/images/alma_nltk_blog/almablog13.png" 
 style="width:460px;
 height:250px;">
-<figcaption>Figure 13. Output 2: a list of all entity names.</figcaption>
+<figcaption>Figure 12. Output 2: a list of all entity names.</figcaption>
 </figure>
 <br/>
 3. Additionally, the NER system is capable of outputting only the first 20 NEs in a single file, rather than all of them. See the code here.
@@ -207,5 +207,6 @@ One of the potential weaknesses of the NLTK NER classifier is that it is trained
 There are other general (language-independent) challenges that arise with the NER task. The word North and May can be parts of named entities for DATE and LOCATION, respectively, but could both be part of a PERSON. Conversely Christian Dior looks like a PERSON but is more likely to be of type ORGANIZATION. A term like Yankee will be an ordinary modifier in some contexts, but will be marked as an entity of type ORGANIZATION in the phrase Yankee infielders. Moreover, in the named entity recognition, both the beginning and end of multi-token sequences have to be identified: NEs can be multi-word names such as Persian Gulf or Oman National Library. There is no perfect solution to these general challenges yet, however, being able to train on manually selected texts (Lorimer’s dataset) and continuously finetune the classifier based on performance allows to address most of the potential challenges.
 </p>
 <p>
-  View the code for NER with NLTK pipeline in <a class="link" href="https://github.com/almazhankapan/opengulf">this</a> github repository.
+  View the code for NER with NLTK pipeline in <a class="link" 
+  href="https://github.com/opengulf/opengulf.github.io/tree/master/pipelines/ner_nltk">this</a> github repository.
 </p>

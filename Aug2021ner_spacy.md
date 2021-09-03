@@ -249,3 +249,9 @@ of the model, therefore, we are able to improve the results.
 As mentioned earlier, custom NER model setup will be 
 explained in the next article.
 </p>
+
+<p>
+  View the code for NER with Spacy pipeline in <a 
+class="link" 
+href="https://github.com/opengulf/opengulf.github.io/tree/master/pipelines/ner_spacy">this</a> github repository.
+</p>
