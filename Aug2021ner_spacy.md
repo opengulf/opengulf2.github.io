@@ -58,8 +58,8 @@ What is Spacy?
 To implement the second approach (discussed above), particularly, to build a custom NER system trained on the annotated data, we decided to use Spacy, an open-source library for advanced Natural Language Processing in Python designed for production use. Spacy, similarly to NLTK, provides a default model which can recognize named or numerical entities. However, in contrast to NLTK, spaCy also allows addition of arbitrary Named Entity categories to the NER model (can be same as default or new)and training and updating the model. Spacy’s named entity recognition has been trained on the <a class="link" href="https://catalog.ldc.upenn.edu/LDC2013T19">OntoNotes 5</a> corpus and it supports the following entity types:
 </p>
 <figure>
-  <img src="../assets/images/alma_spacy_blog/almablogSpacy1.png" style="width:420px;
-height:200px;">
+  <img src="../assets/images/alma_spacy_blog/almablogSpacy1.png" style="width:300px;
+height:400px;">
   <figcaption>
   Figure 1.  This table shows examples of named entities and their types supported by Spacy. 
 </figcaption>
@@ -101,7 +101,8 @@ height:200px;">
 </td>
   </tr>
 </table>
-<figcaption>Table 1. Differences between NLTK and Spacy libraries</figcaption>
+<figcaption>Table 1. Comparison of NLTK and Spacy libraries</figcaption>
+<br/><br/>
 <h3 style="font-size: 18px; text-align: center">
 	III. System Description
   </h3>
@@ -125,12 +126,13 @@ This sample was created by merging paragraphs from some of the text files in the
 </p>
 <figure>
   <img src="../assets/images/alma_spacy_blog/almablogSpacy2.
-png" style="width:420px;
-height:200px;">
+png" style="width:400px;
+height:350px;">
   <figcaption>
   Figure 2.  A screenshot from the txt input file used for training the Spacy model.
 </figcaption>
 </figure>
+<br/><br/>
 <p>
 It can be noticed that paragraphs from both Abadilah.txt and Abbadan.txt files were included in the training input file as these paragraphs contain target geographic Named Entities such as Najd, Persian Gulf, which were not tagged correctly by NLTK and that we aim Spacy model to correctly recognize.  The list of target NEs was provided by other student researchers and can be viewed here -it includes the names of main geographical locations - cities, countries and regions. 
 </p><p>
@@ -149,15 +151,14 @@ Spacy requires a training file to be a list of tuples or lists. Each tuple shoul
 </p>
 <figure>
   <img src="../assets/images/alma_spacy_blog/almablogSpacy3.
-png" style="width:420px;
-height:200px;">
+png" style="width:370px;
+height:140px;">
   <figcaption>
   Figure 3. An example of training data in the json format 
 required by Spacy.
 </figcaption>
 </figure>
-
-
+<br/><br/>
 
 <p>
 As we work with a large amount of data, manual annotation is not an efficient solution. We use the NER Annotator, an open source platform to annotate and save results to a Spacy’s json format. NER Annotator requires the following steps:</p>
@@ -170,12 +171,13 @@ See figure 4 to view a screenshot of the NER annotator interface.
 </p>
 <figure>
   <img src="../assets/images/alma_spacy_blog/almablogSpacy4.
-png" style="width:420px;
-height:200px;">
+png" style="width:800px;
+height:250px;">
   <figcaption>
 Figure 4.  The NER Annotator interface. A user can tag the Named Entities with custom tags.
 </figcaption>
 </figure>
+<br/><br/>
 <p>
 At this stage in the project, we introduce GPE_CUSTOM, LOC_CUSTOM, TRIBE Named Entities. ‘GPE_CUSTOM’ Named Entity tag refers to geo-political entities (e.g. cities, towns, countries) and is defined in the same way as the default GPE tag in Spacy; we add ‘custom’ suffix to differentiate two tags for potential finetuning possibilities in the future. Similarly, LOC_CUSTOM, refers to non-geo-political locations (e.g. plains, mountains, etc.). We also introduce the custom TRIBE tag, which is not defined in Spacy or NLTK. In the future, we can also introduce other tags referring to religion, environment variables, animal types, etc.
 </p>
@@ -190,12 +192,13 @@ After creating the training data,  we can work on creating the Spacy NER model. 
 </p> 
 <figure>
   <img src="../assets/images/alma_spacy_blog/almablogSpacy5.
-png" style="width:420px;
-height:200px;">
+png" style="width:340px;
+height:170px;">
   <figcaption>
   Figure 5. Import libraries
 </figcaption>
 </figure>
+<br/><br/>
 <h4 style="font-size: 17px; text-align: center">
 	Load training data.
   </h4>
@@ -204,39 +207,41 @@ As mentioned in the earlier section ‘Creating training data’,  we have creat
 </p>
 <figure>
   <img src="../assets/images/alma_spacy_blog/almablogSpacy6.
-png" style="width:420px;
-height:200px;">
+png" style="width:600px;
+height:400px;">
   <figcaption>
   Figure 6.  Output from the NER Annotator: training data in a json format specified by Spacy.
 </figcaption>
 </figure>
+<br/><br/>
 <h4 style="font-size: 17px; text-align: center">
 	Using Spacy’s default Named Entity Recognition.
   </h4>
 <p>
 In the next blogpost, we outline in detail the steps for setting up blank and pretrained Custom NER models with Spacy - full pipeline can be viewed <a class="link" 
-href="https://github.com/opengulf/opengulf.github.io/tree/master/pipelines/ner_nltk">here</a>. To view a glimpse into the system, in this article, we show how Spacy’s default NER pipeline, ‘en_core’ recognizes Named Entities. You can view the code in figure 7; we use the default model to recognize Named Entities from a file called ‘abbas_bandar.txt’ from the Lorimer’s Gazetteer dataset. A detailed overview of the functions and steps will be provided in the next blogpost. We also print the list of default Named Entities recognized by the model. 
+href="https://github.com/opengulf/opengulf.github.io/tree/master/pipelines/ner_nltk">here</a>. To view a glimpse into the system, in this article, we show how Spacy’s default NER pipeline, ‘en_core’ recognizes Named Entities. You can view the code in figure 7. We use the default model to recognize Named Entities from a file called ‘abbas_bandar.txt’ from the Lorimer’s Gazetteer dataset. A detailed overview of the functions and steps will be provided in the next blogpost. We also print the list of default Named Entities recognized by the model. 
 </p>
 <figure>
-  <img src="../assets/images/alma_spacy_blog/almablogSpacy7.
-png" style="width:420px;
+  <img src="../assets/images/alma_spacy_blog/almablogSpacy7.png" style="width:420px;
 height:200px;">
   <figcaption>
   Figure 7.  Load the pretrained core pipeline and detect the Named Entities.
 </figcaption>
 </figure>
+<br/><br/>
 <p>
 Then, we use the ‘displacy’ library to visualize the NER outputs - view the results in figure 8. 
 </p>
 
 <figure>
   <img src="../assets/images/alma_spacy_blog/almablogSpacy8.
-png" style="width:420px;
-height:200px;">
+png" style="width:650px;
+height:320px;">
   <figcaption>
   Figure 8.  Named Entity Recognition by default en-core pipeline and visualization of the results.
 </figcaption>
 </figure>
+<br/><br/>
 <p>
 Notably, the default, non-customized pipeline for Spacy is 
 also trained on English corpus, thus, similarly to NLTK, 
