@@ -8,8 +8,11 @@ nav-menu: false
 
 <head>
 <style>
-img{
-  text-align: center; 
+img, figure {
+  display: block;
+  margin-left: auto; 
+  margin-right: auto; 
+  text-align: center;  
 }
 </style>
 </head>
@@ -23,7 +26,7 @@ img{
     <br>
     <b>8-9-2021</b>
 
-<h3 style="font-size: 18px; text-align: center">I. Project Motivation</h3>
+<h3 style="text-align: center">I. Project Motivation</h3>
 <p> 
 I. Project motivation.
 This article is second in the series exploring automated Named Entity Recognition (NER) systems for the historical texts from the <a class="link" href="https://opengulf.github.io/lorimer/">Lorimer’s Gazetteer</a>. Although NLTK, as mentioned in the <a class="link" href="https://opengulf.github.io/Aug2021ner_spacy/">first blogpost</a>, provides one of the most well-recognized and used NER systems, there are several important reasons to explore other approaches due to NLTK’s limitations when applied to the Lorimer’s Gazetteer dataset.</p> 
@@ -36,11 +39,11 @@ This project would be valuable to a larger research community in two ways. First
 <p> 
 Secondly, the Lorimer’s Gazetteer is one of the most influential and well-documented sources on the Gulf States, Saudi Arabia and Persia: each text file in the Gazetteer corresponds to a certain location. Given this, extracting custom-trained entities (tribes, languages, environment features) for each of the locations from the Gazetteer would contribute to establishing a structure and connection across locations in the Middle East based on various environment, political, cultural, geographic features, which previously would be challenging due to time, labor constraints.
 </p>
-<h3 style="font-size: 18px; text-align: center">
+<h3 style="text-align: center">
 	II. Current NER solutions for Non-English texts and our approach.
 
 </h3>
-<h5 style="font-size: 16px; text-align: center"> 
+<h5 style="text-align: center"> 
 Theoretical background: other approaches towards NER of transliterations.
 </h5>
 <p>
@@ -54,7 +57,7 @@ Currently, the task of recognizing transliterated entities (including English tr
 The second approach that involves training NER models on annotated data seems to be more reliable, however, there is a noticeable unavailability of tagged corpora for transliterated entities from Arabic to English. Moreover, the majority of the tagged corpora for Arabic, in general, features <a class="link" href="https://direct.mit.edu/coli/article/40/2/469/1475/A-Survey-of-Arabic-Named-Entity-Recognition-and">modern web content</a>, where historical names of locations, cities (that frequently appear in the Lorimer’s Gazetteer) might be underrepresented. To address these limitations, in this project, we annotate the Lorimer’s Gazetteer and produce rich training data that tags historical, transliterated NEs from the Lorimer’s Gazetteer. This annotated dataset can further benefit other projects working on the historical or nonhistorical texts containing transliterated words. 
 </p>
 
-<h5 style="font-size: 16px; text-align: center"> 
+<h5 style="text-align: center"> 
 What is Spacy? 
 </h5>
 <p>
@@ -70,7 +73,7 @@ height:450px;">
 
 <br/>
 
-<h5 style="font-size: 16px"><i>Differences between NLTK and Spacy
+<h5 style="text-align: center;"><i>Differences between NLTK and Spacy
 </i></h5>
 <p>The table below illustrates main differences between two libraries. 
 </p> 
@@ -106,12 +109,12 @@ height:450px;">
 </table>
 <figcaption>Table 1. Comparison of NLTK and Spacy libraries</figcaption>
 <br/><br/>
-<h3 style="font-size: 18px; text-align: center">
+<h3 style="text-align: center">
 	III. System Description
   </h3>
 <p>Compared to the NLTK model, since we manually train our classifier, we firstly create training data based on the Lorimer’s Gazetteer using the NER Annotator and labelling the Named Entities and their tags. Then, we train the Spacy model on the created training data. Finally, we evaluate our model using a sample test file.
 </p>
-<h4 style="font-size: 17px; text-align: center">
+<h4 style="text-align: center">
 	Creating training data. 
   </h4>
 <p>
@@ -121,7 +124,7 @@ that we want our model to recognize and ii) annotate the
 input file by tagging the target entities and converting it 
 into a suitable training format.
 </p>
-<h5 style="font-size: 16px"><i> A. Create a training input file (txt) that contains target Named Entities.
+<h5 style="text-align: center;"><i> A. Create a training input file (txt) that contains target Named Entities.
 </i></h5>
 <p>
 For this project, we annotate not all of the dataset (800+ text file) but a sample (4940 words) that contains all target NEs that we want our model to recognize.
@@ -143,7 +146,7 @@ Returning to the input file and figure 2, note that these paragraphs also contai
 The final version of the input file prepared for annotation can be viewed here.
 
 </p>
-<h5 style="font-size: 16px"><i>   
+<h5 style="text-align: center;"><i>   
 B. Annotate the training input file and convert it to a json 
 format.
 </i></h5>
@@ -186,7 +189,7 @@ At this stage in the project, we introduce GPE_CUSTOM, LOC_CUSTOM, TRIBE Named E
 <p>
 As we finish annotation of the input file, we export our results in a json format and the resulting training file can be viewed in figure 6. You can view the full file here.
 </p>
-<h4 style="font-size: 17px; text-align: center">
+<h4 style="text-align: center">
 	Import libraries.
   </h4>
 <p>  
@@ -201,7 +204,7 @@ height:170px;">
 </figcaption>
 </figure>
 <br/><br/>
-<h4 style="font-size: 17px; text-align: center">
+<h4 style="text-align: center">
 	Load training data.
   </h4>
 <p>
@@ -215,7 +218,7 @@ png" style="width:650px; height:450px;">
 </figcaption>
 </figure>
 <br/><br/>
-<h4 style="font-size: 17px; text-align: center">
+<h4 style="text-align: center">
 	Using Spacy’s default Named Entity Recognition.
   </h4>
 <p>
@@ -253,7 +256,6 @@ of the model, therefore, we are able to improve the results.
 As mentioned earlier, custom NER model setup will be 
 explained in the next article.
 </p>
-
 <p>
   View the code for NER with Spacy pipeline in <a 
 class="link" 
