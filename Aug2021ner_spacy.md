@@ -73,11 +73,10 @@ height:450px;">
 
 <br/>
 
-<h5 style="text-align: center;"><i>Differences between NLTK and Spacy
-</i></h5>
+<h5 style="text-align: center;">Differences between NLTK and Spacy</h5>
 <p>The table below illustrates main differences between two libraries. 
 </p> 
-<table style="width:100%">
+<table style="width:100%;">
   <tr>
     <th>NLTK</th>
     <th>Spacy</th>
@@ -226,8 +225,8 @@ In the next blogpost, we outline in detail the steps for setting up blank and pr
 href="https://github.com/opengulf/opengulf.github.io/tree/master/pipelines/ner_nltk">here</a>. To view a glimpse into the system, in this article, we show how Spacy’s default NER pipeline, ‘en_core’ recognizes Named Entities. You can view the code in figure 7. We use the default model to recognize Named Entities from a file called ‘abbas_bandar.txt’ from the Lorimer’s Gazetteer dataset. A detailed overview of the functions and steps will be provided in the next blogpost. We also print the list of default Named Entities recognized by the model. 
 </p>
 <figure>
-  <img src="../assets/images/alma_spacy_blog/almablogSpacy7.png" style="width:430px;
-height:170px;">
+  <img src="../assets/images/alma_spacy_blog/almablogSpacy7.png" style="width:500px;
+height:200px;">
   <figcaption>
   Figure 7.  Load the pretrained core pipeline and detect the Named Entities.
 </figcaption>
@@ -239,8 +238,8 @@ Then, we use the ‘displacy’ library to visualize the NER outputs - view the 
 
 <figure>
   <img src="../assets/images/alma_spacy_blog/almablogSpacy8.
-png" style="width:750px;
-height:350px;">
+png" style="width:780px;
+height:370px;">
   <figcaption>
   Figure 8.  Named Entity Recognition by default en-core pipeline and visualization of the results.
 </figcaption>
