@@ -61,8 +61,8 @@ What is Spacy?
 To implement the second approach (discussed above), particularly, to build a custom NER system trained on the annotated data, we decided to use Spacy, an open-source library for advanced Natural Language Processing in Python designed for production use. Spacy, similarly to NLTK, provides a default model which can recognize named or numerical entities. However, in contrast to NLTK, spaCy also allows addition of arbitrary Named Entity categories to the NER model (can be same as default or new)and training and updating the model. Spacy’s named entity recognition has been trained on the <a class="link" href="https://catalog.ldc.upenn.edu/LDC2013T19">OntoNotes 5</a> corpus and it supports the following entity types:
 </p>
 <figure>
-  <img src="../assets/images/alma_spacy_blog/almablogSpacy1.png" style="width:300px;
-height:400px;">
+  <img src="../assets/images/alma_spacy_blog/almablogSpacy1.png" style="width:350px;
+height:450px;">
   <figcaption>
   Figure 1.  This table shows examples of named entities and their types supported by Spacy. 
 </figcaption>
@@ -129,8 +129,8 @@ This sample was created by merging paragraphs from some of the text files in the
 </p>
 <figure>
   <img src="../assets/images/alma_spacy_blog/almablogSpacy2.
-png" style="width:450px;
-height:400px;">
+png" style="width:470px;
+height:420px;">
   <figcaption>
   Figure 2.  A screenshot from the txt input file used for training the Spacy model.
 </figcaption>
@@ -209,7 +209,7 @@ As mentioned in the earlier section ‘Creating training data’,  we have creat
 </p>
 <figure>
   <img src="../assets/images/alma_spacy_blog/almablogSpacy6.
-png" style="width:670px; height:460px;">
+png" style="width:650px; height:450px;">
   <figcaption>
   Figure 6.  Output from the NER Annotator: training data in a json format specified by Spacy.
 </figcaption>
