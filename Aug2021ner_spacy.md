@@ -40,9 +40,9 @@ Secondly, the Lorimer’s Gazetteer is one of the most influential and well-docu
 	II. Current NER solutions for Non-English texts and our approach.
 
 </h3>
-<h4 style="font-size: 17px; text-align: center">
-II A. Theoretical background: other approaches towards NER of transliterations.
-</h4>
+<h5 style="font-size: 16px; text-align: center"> 
+Theoretical background: other approaches towards NER of transliterations.
+</h5>
 <p>
 Before exploring the technical implementation of the Spacy based system, it would be valuable to provide theoretical background into existing NER approaches for transliterated texts. We also provide an introduction to the Spacy library and compare features of NLTK and Spacy.
 </p>
@@ -53,8 +53,6 @@ Currently, the task of recognizing transliterated entities (including English tr
 <p>
 The second approach that involves training NER models on annotated data seems to be more reliable, however, there is a noticeable unavailability of tagged corpora for transliterated entities from Arabic to English. Moreover, the majority of the tagged corpora for Arabic, in general, features <a class="link" href="https://direct.mit.edu/coli/article/40/2/469/1475/A-Survey-of-Arabic-Named-Entity-Recognition-and">modern web content</a>, where historical names of locations, cities (that frequently appear in the Lorimer’s Gazetteer) might be underrepresented. To address these limitations, in this project, we annotate the Lorimer’s Gazetteer and produce rich training data that tags historical, transliterated NEs from the Lorimer’s Gazetteer. This annotated dataset can further benefit other projects working on the historical or nonhistorical texts containing transliterated words. 
 </p>
-<h4 style="font-size: 17px; text-align: center">II B. Technical implementation: Custom NER with Spacy.
-</h4>
 
 <h5 style="font-size: 16px; text-align: center"> 
 What is Spacy? 
@@ -164,7 +162,6 @@ required by Spacy.
 </figcaption>
 </figure>
 <br/><br/>
-
 <p>
 As we work with a large amount of data, manual annotation is not an efficient solution. We use the NER Annotator, an open source platform to annotate and save results to a Spacy’s json format. NER Annotator requires the following steps:</p>
 <p>
@@ -212,8 +209,7 @@ As mentioned in the earlier section ‘Creating training data’,  we have creat
 </p>
 <figure>
   <img src="../assets/images/alma_spacy_blog/almablogSpacy6.
-png" style="width:600px;
-height:400px;">
+png" style="width:670px; height:460px;">
   <figcaption>
   Figure 6.  Output from the NER Annotator: training data in a json format specified by Spacy.
 </figcaption>
@@ -227,8 +223,8 @@ In the next blogpost, we outline in detail the steps for setting up blank and pr
 href="https://github.com/opengulf/opengulf.github.io/tree/master/pipelines/ner_nltk">here</a>. To view a glimpse into the system, in this article, we show how Spacy’s default NER pipeline, ‘en_core’ recognizes Named Entities. You can view the code in figure 7. We use the default model to recognize Named Entities from a file called ‘abbas_bandar.txt’ from the Lorimer’s Gazetteer dataset. A detailed overview of the functions and steps will be provided in the next blogpost. We also print the list of default Named Entities recognized by the model. 
 </p>
 <figure>
-  <img src="../assets/images/alma_spacy_blog/almablogSpacy7.png" style="width:450px;
-height:160px;">
+  <img src="../assets/images/alma_spacy_blog/almablogSpacy7.png" style="width:430px;
+height:170px;">
   <figcaption>
   Figure 7.  Load the pretrained core pipeline and detect the Named Entities.
 </figcaption>
@@ -240,8 +236,8 @@ Then, we use the ‘displacy’ library to visualize the NER outputs - view the 
 
 <figure>
   <img src="../assets/images/alma_spacy_blog/almablogSpacy8.
-png" style="width:650px;
-height:320px;">
+png" style="width:750px;
+height:350px;">
   <figcaption>
   Figure 8.  Named Entity Recognition by default en-core pipeline and visualization of the results.
 </figcaption>
