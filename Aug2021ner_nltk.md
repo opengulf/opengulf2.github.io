@@ -7,6 +7,11 @@ nav-menu: false
 ---
 
 <head>
+<style>
+  img{
+    align: center; 
+  }
+</style>
 </head>
 <section id="one">
 	<div class="inner">
