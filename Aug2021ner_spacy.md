@@ -9,7 +9,7 @@ nav-menu: false
 <head>
 <style>
 img{
-  align: center; 
+  text-align: center; 
 }
 </style>
 </head>
@@ -131,8 +131,8 @@ This sample was created by merging paragraphs from some of the text files in the
 </p>
 <figure>
   <img src="../assets/images/alma_spacy_blog/almablogSpacy2.
-png" style="width:400px;
-height:350px;">
+png" style="width:450px;
+height:400px;">
   <figcaption>
   Figure 2.  A screenshot from the txt input file used for training the Spacy model.
 </figcaption>
@@ -176,8 +176,8 @@ See figure 4 to view a screenshot of the NER annotator interface.
 </p>
 <figure>
   <img src="../assets/images/alma_spacy_blog/almablogSpacy4.
-png" style="width:800px;
-height:250px;">
+png" style="width:900px;
+height:300px;">
   <figcaption>
 Figure 4.  The NER Annotator interface. A user can tag the Named Entities with custom tags.
 </figcaption>
@@ -227,8 +227,8 @@ In the next blogpost, we outline in detail the steps for setting up blank and pr
 href="https://github.com/opengulf/opengulf.github.io/tree/master/pipelines/ner_nltk">here</a>. To view a glimpse into the system, in this article, we show how Spacy’s default NER pipeline, ‘en_core’ recognizes Named Entities. You can view the code in figure 7. We use the default model to recognize Named Entities from a file called ‘abbas_bandar.txt’ from the Lorimer’s Gazetteer dataset. A detailed overview of the functions and steps will be provided in the next blogpost. We also print the list of default Named Entities recognized by the model. 
 </p>
 <figure>
-  <img src="../assets/images/alma_spacy_blog/almablogSpacy7.png" style="width:420px;
-height:200px;">
+  <img src="../assets/images/alma_spacy_blog/almablogSpacy7.png" style="width:450px;
+height:160px;">
   <figcaption>
   Figure 7.  Load the pretrained core pipeline and detect the Named Entities.
 </figcaption>
