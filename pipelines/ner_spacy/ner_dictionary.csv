@@ -1,0 +1,43 @@
+Region,Appears in the dataset
+Arabia,y
+Arabia and Najd,y
+Arabistan,y
+Arabistan and Iraq,n\a
+Arabistan and Persian Coast,n\a
+Bahrain,y
+Bahrain and Qatar,y
+Dhofar,y
+Dhufar,y
+Eastern Arabia,y
+Eastern Arabia and Qatar,n\a
+Gulf,y
+Hijaz,y
+Hijaz and Najd,n\a
+Iraq,y
+Iraq and Kuwait,y
+Iraq and Najd,n\a
+Iraq and Persia,y
+Jabal Shammar,y
+Khuzestan,n\a
+Kuwait,y
+Kuwait and Arabia,n\a
+Makran,y
+Najd,y
+Oman,y
+Oman and Bahrain and Qatar,n\a
+Oman Promontory,y
+Oman Promontory and Oman,n\a
+Oman Promontory and Trucial Oman,n\a
+Persia,y
+Persia and South Asia,n'a
+Persian Coast,y
+Persian Gulf,y
+Qatar,y
+Qatar and Bahrain,y
+South Asia,y
+Southern Arabia,y
+Southern Najd,y
+Trucial Oman,y
+Trucial Oman and Persia,y
+"Trucial Oman, Oman",n\a
+"Trucial Oman, Qatar, Bahrain",n\a
