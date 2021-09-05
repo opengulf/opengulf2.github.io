@@ -40,7 +40,7 @@ This project would be valuable to a larger research community in two ways. First
 Secondly, the Lorimer’s Gazetteer is one of the most influential and well-documented sources on the Gulf States, Saudi Arabia and Persia: each text file in the Gazetteer corresponds to a certain location. Given this, extracting custom-trained entities (tribes, languages, environment features) for each of the locations from the Gazetteer would contribute to establishing a structure and connection across locations in the Middle East based on various environment, political, cultural, geographic features, which previously would be challenging due to time, labor constraints.
 </p>
 <h3 style="text-align: center">
-	II. Current NER solutions for Non-English texts and our approach.
+	II. Current NER solutions for text containing Non-English entities and our approach.
 
 </h3>
 <h5 style="text-align: center"> 
@@ -48,9 +48,7 @@ Theoretical background: other approaches towards NER of transliterations.
 </h5>
 <p>
 Before exploring the technical implementation of the Spacy based system, it would be valuable to provide theoretical background into existing NER approaches for transliterated texts. We also provide an introduction to the Spacy library and compare features of NLTK and Spacy.
-</p>
-<p>
-Notably, the NER models for Arabic and transliterated texts (from Arabic to English and vice versa) are still underdeveloped. As most scientific studies are conducted in English in almost all Arabic-speaking countries, there is no urgency to investigate NER for Arabic and transliterated texts for many areas such as bioinformatics, drug or chemicals <a class="link" href="https://aclanthology.org/J14-2008.pdf">(Shaalan, 2013)</a>. Numerous state sponsored <a class="link" href="https://www.topcoder.com/challenges/30087004">initiatives</a> have been created to encourage greater participation from NLP researchers. </p>
+</p> 
 <p>
 Currently, the task of recognizing transliterated entities (including English transliterations of Arabic words) has been dominated by NER models that devise an algorithm to tag foreign language entities (in this case, Arabic) using either (i) metadata from Wikipedia such as inter-wiki links, article categories, and cross language links or (ii) other parallel English-foreign language data. In the first approach, the model is trained on Wikipedia texts that are available in several languages and the NER of non-English and/or transliterated words are predicted based on the trained model. This approach has several limitations as Wikipedia information can be distributed unequally as few Wikipedia contributors tend to work on the same language. Moreover, articles can have different content depending on the language: some countries do not allow articles on certain topics or an article on a divisive topic such as Crimea contains different content depending on the language (e.g. Russian or English). Given these disparities, using Wikipedia articles available in several languages for training might not yield accurate results. Automatic translation seems as a possible solution for this approach, but also might yield <a class="link" href="https://www.theverge.com/2019/1/30/18195909/google-translate-ai-machine-learning-bias-religion-macduff-hughes-interview">inaccuracies</a>. </p>
 <p>
