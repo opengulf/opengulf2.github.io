@@ -72,8 +72,9 @@ nav-menu: True
 		<li> Flag protection of Pearling Towns in the Gulf, Filename: <a href="https://github.com/opengulf/Lorimer_data/blob/master/pearl_protection.csv" class="link">pearl_protection.csv</a>, DOI:10.5281/zenodo.4678674</li>
 		<li> Quantities of Date Palms in Bahrain, Filename: <a href="https://github.com/opengulf/Lorimer_data/blob/master/BH_date_palms.csv" class="link">BH_date_palms.csv</a>, DOI:10.5281/zenodo.4678674</li>
 		<li> Places of Wadi Al Tayin, Filename: <a href="https://github.com/opengulf/Lorimer_data/blob/master/Wadi_Al_Tayin.csv" class="link">Wadi_Al_Tayin.csv</a>, DOI:10.5281/zenodo.4678674</li>
-		<li> Camels in the early 20th Century Arabian Gulf, Filename: <a href="https://github.com/opengulf/Lorimer_data/blob/master/Wadi_Al_Tayin.csv" class="link">Wadi_Al_Tayin.csv</a>, DOI:10.5281/zenodo.4678674</li>
+		<li> Camels in the early 20th Century Arabian Gulf, Filename: <a href="https://github.com/opengulf/Lorimer_data/blob/master/Wadi_Al_Tayin.csv" class="link">camels_Arabian_Gulf.csv</a>, DOI:10.5281/zenodo.4678674</li>
+		<li> Place Name Changes in Arabistan (Khuzestan), Filename: <a href="https://github.com/opengulf/Lorimer_data/blob/master/name_changes_Arabistan.csv" class="link">name_changes_Arabistan.csv</a>, DOI:10.5281/zenodo.4678674</li>
 </ul>
 </p>
-<p> <i>Last update: 1 September 2021</i>
+<p> <i>Last update: 3 November 2021</i>
 </p>
