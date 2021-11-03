@@ -41,6 +41,7 @@ nav-menu: True
 <h3 id="content">Conference Presentations</h3>
 <p>
 	<ul>
+		<li>Nora Barakat, Suphan Kirmizialtin and David Joseph Wrisley, "Digital Approaches to Gulf Studies: Introducing OpenGulf" Humanities Research Fellowship for the Study of the Arab World, NYU Abu Dhabi, 3 November 2021.
 		<li>David Joseph Wrisley, Prince Ampofo and Wajahat Mirza, "Finding Culture in Data Preparation: Interdisciplinarity and the Phone Book" European Association of Digital Humanities: Interdisciplinary Perspectives on Data, Siberian Federal University, Krasnoyarsk, Russia, 21-25 September 2021.
 		<li>Nada Ammagui, Nora Barakat, Camille Cole, Moe Khalil and David Joseph Wrisley, "OpenGulf: Creating Digital Research Infrastructures for Gulf Studies" Center for Spatial and Textual Analysis (CESTA), Stanford University, 4 May 2021.</li>
 		<li>Nora Barakat and David Joseph Wrisley, "When Does it Become Open?" Engaging Open Social Scholarship (INKE), 8-10 December 2020.</li>
@@ -54,6 +55,7 @@ nav-menu: True
 <h3 id="content">Publications</h3>
 <p>
 	<ul>
+		<li><a href="https://eadh2021.culintec.de/WRISLEY_David_Joseph_Finding_Culture_in_Data_Preparation__In.html#index.xml" class="link">Finding Culture in Data Preparation: Interdisciplinarity and the Phone Book</a>, European Association of Digital Humanities abstract (peer reviewed)</li>
 		<li><a href="../openGulf2019" class="link" >"The Open Gulf Project" NYU Abu Dhabi Arts and Humanities Division Research Report, May 2019</a></li>
 		<li><a href="../ADC!" class="link" > Mirza, M.W. and Wrisley, D.J. Abu Dhabi Calling!: A Pilot Investigation of Spatial Patterns in Phone Directories. Winter Institute in Digital Humanities, January 2020</a></li>
 	</ul>
