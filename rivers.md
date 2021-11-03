@@ -39,6 +39,7 @@ Environmental policy has caused changes in the region, causing some rivers and c
 <img src="../assets/images/rivers1.jpg" style="width:700px;height:300px;"></p>
 <br>
 Figure 1: Two maps illustrating an attempt to plot riverside settlements along the Gargar River (left) along 21 miles using the data from the Gazetteer, with a closeup view of the Gargar River near the city of Sufan.<br>
+<br>
 <p>
 Before discussing some of the evidence of the shifts in the Gargar river, I want to explain how I find locations on rivers like it. Using my best estimate for the starting point provided in Lorimer, in this case the edge of Shushtar city, I trace the river from the point using Google Maps’ “measure distance” tool, making sure that my version follows the river closely and never deviates from its path. This creates a copy of the river with distances marked alongside it. The text gives locations as City X, distance Y on the Gargar from the end of Shushtar, and the bank. It is not clear where the authors get this information from or how accurate it is intended to be, however distances are given to the nearest quarter mile, implying some degree of accuracy in the initial estimations. This easily converts to the river once the distances have been mapped to it. This method does bring with it some ambiguities, mainly the issues of the river’s movement and the necessary estimation of the starting point. Both of these issues are hard to counteract as we simply do not know exactly where cities stopped and where rivers were a century ago.
 </p>
