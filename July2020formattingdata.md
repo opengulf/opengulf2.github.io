@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Creating Maps 
+title: Creating Maps
 description: Lorimer Information  
 
 nav-menu: false
@@ -23,7 +23,7 @@ nav-menu: false
 		<br>
 		<b>23-7-2020</b>
 
-<p> 
+<p>
 	When creating historical data for map-making, structured datasets makes the process easier and cleaner. This blog will provide a detailed tutorial on how to extract quantities of a certain attribute from a collection of text files using low-barrier digital platforms:<i> AntConc and Google Sheets</i>. In this tutorial, I will be extracting the number of donkeys mentioned in each text file. 	
 	<ol>
 		<li>Download all the text files into one folder. </li>
@@ -47,7 +47,7 @@ nav-menu: false
 		<img src="../assets/images/i6.jpg" style="width:500px;height:300px;">
 		<li>Since the quantity we want to extract is in column B, insert a new empty column between B and C.</li>
 		<li>It is also important to note that, since our data is consistent, the number we want in almost always present at the end of the sentence in column B.</li>
-		<li>We can now use a formula to extract the last word/number from column B 
+		<li>We can now use a formula to extract the last word/number from column B
 			<ul>
 				<li>If you have consistent spacing, use the following formula, replacing text with the cell containing the value (in my case, B1) :<br>
 				=TRIM(RIGHT(SUBSTITUTE(text," ",REPT(" ",100)),100)) </li>
@@ -59,21 +59,3 @@ nav-menu: false
 		<li>OPTIONAL: To further clean up the data, choose a format in which only the relevant content is in the sheet. For my case, we only needed the number of donkeys and the file name. The following is the data after cleaning it </li>
 		<img src="../assets/images/i8.jpg" style="width:400px;height:400px;">
 	</ol>
-
-
-
-
-
-
- 
-
- 
-
-
-
-
-
-
-
-
-

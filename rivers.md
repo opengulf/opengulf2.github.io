@@ -1,6 +1,6 @@
 ---
 layout: page
-title: The Waterways of Arabistan (Khuzestan)
+title: The Waterways of Arabistan (Khuzestan) in Lorimer's Gazetteer
 description: Lorimer
 
 nav-menu: false
@@ -21,7 +21,7 @@ img, figure {
 		<header class="major">
 			<h1>Blogs</h1>
 		</header>
-<h2 id="content">The Waterways of Arabistan</h2>
+<h2 id="content">The Waterways of Arabistan (Khuzestan) in Lorimer's Gazetteer</h2>
     <b>Everett Pruitt</b>
     <br>
     <b>1-7-2021</b>
