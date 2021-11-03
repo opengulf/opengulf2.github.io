@@ -50,12 +50,11 @@ nav-menu: True
 		<li>Nora Barakat, David Joseph Wrisley. “Open Gulf and Global Asia” at Port City Environments in Global Asia: Luce Abu Dhabi Gathering, NYU Abu Dhabi, 15 January 2020.</li>
 		<li>Nora Barakat, David Joseph Wrisley. "Open Gulf: Collating the Imperial Knowledge of Historical Gazetteers of Arabia," Middle East Studies Association, New Orleans, 17 November 2019.</li>
 		<li>Nora Barakat, Elham Fakhro, Nelida Fuccaro and David Joseph Wrisley, "Mapping Lorimer: Using Digital Methods to Explore the Discursive Construction of Gulf Space, Societies and Cultures/Economies” Exeter Center for Gulf Studies Conference, Exeter, UK, 2 July 2018</li>
-	</ul>
 </p>
 <h3 id="content">Publications</h3>
 <p>
 	<ul>
-		<li><a href="https://eadh2021.culintec.de/WRISLEY_David_Joseph_Finding_Culture_in_Data_Preparation__In.html#index.xml" class="link">Finding Culture in Data Preparation: Interdisciplinarity and the Phone Book</a>, European Association of Digital Humanities abstract (peer reviewed)</li>
+		<li><a href="https://eadh2021.culintec.de/WRISLEY_David_Joseph_Finding_Culture_in_Data_Preparation__In.html#index.xml" class="link">Finding Culture in Data Preparation: Interdisciplinarity and the Phone Book</a>, European Association of Digital Humanities 2021 abstract (peer reviewed)</li>
 		<li><a href="../openGulf2019" class="link" >"The Open Gulf Project" NYU Abu Dhabi Arts and Humanities Division Research Report, May 2019</a></li>
 		<li><a href="../ADC!" class="link" > Mirza, M.W. and Wrisley, D.J. Abu Dhabi Calling!: A Pilot Investigation of Spatial Patterns in Phone Directories. Winter Institute in Digital Humanities, January 2020</a></li>
 	</ul>
