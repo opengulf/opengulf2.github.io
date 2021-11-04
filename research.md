@@ -56,7 +56,7 @@ nav-menu: True
 	<ul>
 		<li><a href="https://eadh2021.culintec.de/WRISLEY_David_Joseph_Finding_Culture_in_Data_Preparation__In.html#index.xml" class="link">Finding Culture in Data Preparation: Interdisciplinarity and the Phone Book</a>, European Association of Digital Humanities 2021 abstract (peer reviewed)</li>
 		<li><a href="../openGulf2019" class="link" >"The Open Gulf Project" NYU Abu Dhabi Arts and Humanities Division Research Report, May 2019</a></li>
-		<li><a href="../ADC!" class="link" > Mirza, M.W. and Wrisley, D.J. Abu Dhabi Calling!: A Pilot Investigation of Spatial Patterns in Phone Directories. Winter Institute in Digital Humanities, January 2020</a></li>
+		<li><a href="../ADC!" class="link" > M. Wajahat Mirza and David Joseph Wrisley, Abu Dhabi Calling!: A Pilot Investigation of Spatial Patterns in Phone Directories. Winter Institute in Digital Humanities, January 2020</a></li>
 	</ul>
 </p>
 
@@ -73,7 +73,7 @@ nav-menu: True
 		<li> Quantities of Date Palms in Bahrain, Filename: <a href="https://github.com/opengulf/Lorimer_data/blob/master/BH_date_palms.csv" class="link">BH_date_palms.csv</a>, DOI:10.5281/zenodo.4678674</li>
 		<li> Places of Wadi Al Tayin, Filename: <a href="https://github.com/opengulf/Lorimer_data/blob/master/Wadi_Al_Tayin.csv" class="link">Wadi_Al_Tayin.csv</a>, DOI:10.5281/zenodo.4678674</li>
 		<li> Camels in the early 20th Century Arabian Gulf, Filename: <a href="https://github.com/opengulf/Lorimer_data/blob/master/Wadi_Al_Tayin.csv" class="link">camels_Arabian_Gulf.csv</a>, DOI:10.5281/zenodo.4678674</li>
-		<li> Place Name Changes in Arabistan (Khuzestan), Filename: <a href="https://github.com/opengulf/Lorimer_data/blob/master/name_changes_Arabistan.csv" class="link">name_changes_Arabistan.csv</a>, DOI:10.5281/zenodo.4678674</li>
+		<li> Place Name Changes in Arabistan (Khuzestan), Filename: <a href="https://github.com/opengulf/Lorimer_data/blob/master/name_changes_Arabistan.csv" class="link">name_changes_Arabistan.csv</a></li>
 </ul>
 </p>
 <p> <i>Last update: 3 November 2021</i>
