@@ -46,7 +46,9 @@ Before discussing some of the evidence of the shifts in the Gargar river, I want
 <p>
 INTERACTIVE MAP OF ARABISTAN FORTHCOMING
 </p>
+<p>
 In the above map, it is clear that the locations provided are no longer accurate. The Gargar is a <a href="https://whc.unesco.org/uploads/nominations/1315.pdf" class="link">100 km artificial branch of the Karun</a> created to irrigate the land south of Shushtar. By comparing modern locations on the Gargar to the locations in Lorimer we see that the Gargar has likely changed in the area south of Chahār Gāveh (Lorimer’s Chahārgāweh) as the locations of the six cities are offset from the locations given in Lorimer by significant distances. This is likely due to the natural shift in the river’s course over the last century and also the variable degree of accuracy we can attribute to the Gazetteer and exemplifies the challenges of using century-old geospatial data.
+</p>
 <br>
 <p>
 Does this render the geographic data in Lorimer on Arabistan and other regions that use a river-based reference system incongruent with contemporary geographic information? No. Some locations, primarily those that are only located through descriptions of rivers and canals, are impossible to find without an up to date name or a second reference point. However, well documented cities and towns with consistent names are easy to locate. Regardless, the environmental changes in Khuzestan point to how changes in the environment affect historical geographic information and the importance of understanding environmental history when modernizing geographic data from the near past.
