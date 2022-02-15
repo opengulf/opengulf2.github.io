@@ -17,16 +17,16 @@ nav-menu: True
 <!-- Content -->
 
 <!-- <h2 id="content">Research:</h2> -->
-<h3 id="content">Total Annotations</h3>
+<h3 id="content">Total Recogito Annotations</h3>
 <p>
 	<ul>
 		<li>54K annotations</li>
 	</ul>
 </p>
-<h3 id="content">Unique Geographic Annotations</h3>
+<h3 id="content">Unique Annotations</h3>
 <p>
 	<ul>
-		<li>31K Total (23K Places | 8K Persons) with Recogito</li>
+		<li>31K Total (23K Places | 8K Persons)</li>
 	</ul>	 
 </p>
 
