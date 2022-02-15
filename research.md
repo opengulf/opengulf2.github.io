@@ -20,14 +20,9 @@ nav-menu: True
 <h3 id="content">Total Recogito Annotations</h3>
 <p>
 	<ul>
-		<li>54K annotations</li>
+		<li>54K total annotations</li>
+		<li>31K unique annotations (23K Places | 8K Persons)</li>
 	</ul>
-</p>
-<h3 id="content">Unique Annotations</h3>
-<p>
-	<ul>
-		<li>31K Total (23K Places | 8K Persons)</li>
-	</ul>	 
 </p>
 
 <h3 id="content">Transcriptions</h3>
@@ -38,7 +33,7 @@ nav-menu: True
 
 </p>
 
-<h3 id="content">Annotations</h3>
+<h3 id="content">NER Annotations</h3>
 <p>
 	<ul>
 		<li>1000+ name entity annotations with 16 tags with NER-Annotator</li>
