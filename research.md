@@ -72,7 +72,7 @@ nav-menu: True
 <h3 id="content">Project Briefs</h3>
 <p>
 			<ul>
-				<li><a href=".https://github.com/opengulf/opengulf.github.io/blob/master/assets/images/Open%20Gulf%20May%202019.pdf" class="link" >"The Open Gulf Project" NYU Abu Dhabi Arts and Humanities Division Research Report, May 2019</a></li>
+				<li><a href="https://github.com/opengulf/opengulf.github.io/blob/master/assets/images/Open%20Gulf%20May%202019.pdf" class="link" >"The Open Gulf Project" NYU Abu Dhabi Arts and Humanities Division Research Report, May 2019</a></li>
 				<li><a href="https://github.com/opengulf/opengulf.github.io/blob/master/assets/images/ay-19-20-urg-excerpt.pdf" class="link" >"AY 19-20 Undergraduate Research: OpenGulf" NYU Abu Dhabi Office of Undergraduate Research Report, May 2020</a></li>
 				</ul>
 
