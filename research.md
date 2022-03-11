@@ -57,7 +57,7 @@ nav-menu: True
 		<li>Nora Barakat, Elham Fakhro, Nelida Fuccaro and David Joseph Wrisley, "Mapping Lorimer: Using Digital Methods to Explore the Discursive Construction of Gulf Space, Societies and Cultures/Economies” Exeter Center for Gulf Studies Conference, Exeter, UK, 2 July 2018.</li>
 		</ul>
 
-</p>
+
 
 <h3 id="content">Project Publications</h3>
 <p>
