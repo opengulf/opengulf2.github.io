@@ -62,11 +62,9 @@ nav-menu: True
 <h3 id="content">Project Publications</h3>
 <p>
 	<ul>
-		<li><a href="http://hdl.handle.net/2451/63845" class="link">Fine Tuning NER with spaCy for Transliterated Entities Found in Digital Collections From the Multilingual Persian Gulf. 6th Digital Humanities in the Nordic and Baltic Countries Conference (DHNB 2022), Uppsala University, Sweden, 15–18 March 2022 (peer reviewed)</a></li>
-		<li><a href="http://hdl.handle.net/2451/63602" class="link">Finding Culture in Data Preparation: Interdisciplinarity and the Phone Book, European Association of Digital Humanities (EADH 2021), Krasnoyarsk, Russia, 21-24 September 2021 (peer reviewed)</a></li>
-		<li><a href="../openGulf2019" class="link" >"The Open Gulf Project" NYU Abu Dhabi Arts and Humanities Division Research Report, May 2019</a></li>
-		<li><a href="../ay-19-20-urg" class="link" >"AY 19-20 Undergraduate Research: OpenGulf" NYU Abu Dhabi Office of Undergraduate Research Report, May 2020</a></li>
-		<li><a href="http://hdl.handle.net/2451/61212" class="link" >Abu Dhabi Calling!: A Pilot Investigation of Spatial Patterns in Phone Directories. Winter Institute in Digital Humanities, January 2020</a></li>
+		<li><a href="http://hdl.handle.net/2451/63845" class="link">Fine Tuning NER with spaCy for Transliterated Entities Found in Digital Collections From the Multilingual Persian Gulf</a>. 6th Digital Humanities in the Nordic and Baltic Countries Conference (DHNB 2022), Uppsala University, Sweden, 15–18 March 2022 (peer reviewed)</li>
+		<li><a href="http://hdl.handle.net/2451/63602" class="link">Finding Culture in Data Preparation: Interdisciplinarity and the Phone Book</a>. European Association of Digital Humanities (EADH 2021), Krasnoyarsk, Russia, 21-24 September 2021 (peer reviewed)</li>
+		<li><a href="http://hdl.handle.net/2451/61212" class="link" >Abu Dhabi Calling!: A Pilot Investigation of Spatial Patterns in Phone Directories</a>. Winter Institute in Digital Humanities, January 2020</li>
 		</ul>
 
 </p>
