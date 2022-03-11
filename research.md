@@ -55,9 +55,7 @@ nav-menu: True
 		<li>Nora Barakat, David Joseph Wrisley. “Open Gulf and Global Asia” at Port City Environments in Global Asia: Luce Abu Dhabi Gathering, NYU Abu Dhabi, 15 January 2020.</li>
 		<li>Nora Barakat, David Joseph Wrisley. "Open Gulf: Collating the Imperial Knowledge of Historical Gazetteers of Arabia," Middle East Studies Association, New Orleans, 17 November 2019.</li>
 		<li>Nora Barakat, Elham Fakhro, Nelida Fuccaro and David Joseph Wrisley, "Mapping Lorimer: Using Digital Methods to Explore the Discursive Construction of Gulf Space, Societies and Cultures/Economies” Exeter Center for Gulf Studies Conference, Exeter, UK, 2 July 2018</li>
-		</ul>
 
-</p>
 
 <h3 id="content">Project Publications</h3>
 <p>
@@ -77,7 +75,7 @@ nav-menu: True
 				<li><a href="../openGulf2019" class="link" >"The Open Gulf Project" NYU Abu Dhabi Arts and Humanities Division Research Report, May 2019</a></li>
 				<li><a href="../URG19-20" class="link" >"AY 19-20 Undergraduate Research: OpenGulf" NYU Abu Dhabi Office of Undergraduate Research Report, May 2020</a></li>
 				</ul>
-				
+
 </p>
 
 <h3 id="content">Datasets</h3>
