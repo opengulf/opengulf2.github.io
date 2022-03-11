@@ -25,10 +25,12 @@ nav-menu: True
 	</ul>
 </p>
 
-<h3 id="content">Transcriptions</h3>
+<h3 id="content">Ground Truth Transcriptions</h3>
 <p>
 	<ul>
-		<li>350 Pages | nearly 100 letters</li>
+		<li>90K words of the Bushire letters in colonial English and translation</li>
+		<li>30 letters in Gulf Arabic</li>
+
 	</ul>
 
 </p>
@@ -45,8 +47,11 @@ nav-menu: True
 <p>
 	<ul>
 		<li>Almazhan Kapan, Suphan Kirmizialtin, Rhythm Kukreja and David Joseph Wrisley, "Fine Tuning NER with spaCy for Transliterated Entities Found in Digital Collections From the Multilingual Persian Gulf" 6th Digital Humanities in the Nordic and Baltic Countries Conference (DHNB 2022), Uppsala University, Sweden, 15–18 March 2022.</li>
+		<li>Nora Barakat, “Text Creation from Arabic Historical Sources”, Digital Humanities and Islamic Studies Online Workshop, Oxford Center for Islamic Studies, 20 November 2021.</li>
 		<li>Nora Barakat, Suphan Kirmizialtin and David Joseph Wrisley, "Digital Approaches to Gulf Studies: Introducing OpenGulf" Humanities Research Fellowship for the Study of the Arab World, NYU Abu Dhabi, 3 November 2021.</li>
 		<li>David Joseph Wrisley, Prince Ampofo and Wajahat Mirza, "Finding Culture in Data Preparation: Interdisciplinarity and the Phone Book" European Association of Digital Humanities: Interdisciplinary Perspectives on Data, Siberian Federal University, Krasnoyarsk, Russia, 21-25 September 2021.</li>
+		<li>Nora Barakat and Mohammed Khalil, “Annotation and Transcription Platforms and Arabic Script Languages: Promises and Challenges”, Right to Left Conference, Digital Humanities Summer Institute, June 2021.</li>
+		<li>Munther AlSabagh and David Joseph Wrisley, “Arabic Handwritten Archives from the Gulf Region: Challenges and Opportunities for Local Digital Research”, Right to Left Conference, Digital Humanities Summer Institute, June 2021.</li>
 		<li>Nada Ammagui, Nora Barakat, Camille Cole, Moe Khalil and David Joseph Wrisley, <a href="https://youtu.be/4iiZsmDZWY4" class="link">"OpenGulf: Creating Digital Research Infrastructures for Gulf Studies"</a> Center for Spatial and Textual Analysis (CESTA), Stanford University, 4 May 2021.</li>
 		<li>Nora Barakat and David Joseph Wrisley, "When Does it Become Open?" Engaging Open Social Scholarship (INKE), 8-10 December 2020.</li>
 		<li>David Joseph Wrisley, "'The Book That Everyone Uses, But No One Reads': Phone Directories for Digital Urban History of Abu Dhabi (1970-2000)" MESA, 14 October 2020</li>
@@ -59,7 +64,7 @@ nav-menu: True
 
 </p>
 
-<h3 id="content">Project Publications</h3>
+<h3 id="content">Research Publications</h3>
 <p>
 	<ul>
 		<li><a href="http://hdl.handle.net/2451/63845" class="link">Fine Tuning NER with spaCy for Transliterated Entities Found in Digital Collections From the Multilingual Persian Gulf</a>. 6th Digital Humanities in the Nordic and Baltic Countries Conference (DHNB 2022), Uppsala University, Sweden, 15–18 March 2022 (peer reviewed)</li>
@@ -69,11 +74,12 @@ nav-menu: True
 
 </p>
 
-<h3 id="content">Project Briefs</h3>
+<h3 id="content">Research Briefs</h3>
 <p>
 			<ul>
-				<li><a href="https://github.com/opengulf/opengulf.github.io/blob/master/assets/images/Open%20Gulf%20May%202019.pdf" class="link" >"The Open Gulf Project" NYU Abu Dhabi Arts and Humanities Division Research Report, May 2019</a></li>
+				<li><a href="https://github.com/opengulf/opengulf.github.io/blob/master/assets/images/cesta_anthology_excerpt.pdf" class="link" >"CESTA Anthology 2020-21" Center for Spatial and Textual Analysis (Stanford), December 2021</a></li>
 				<li><a href="https://github.com/opengulf/opengulf.github.io/blob/master/assets/images/ay-19-20-urg-excerpt.pdf" class="link" >"AY 19-20 Undergraduate Research: OpenGulf" NYU Abu Dhabi Office of Undergraduate Research Report, May 2020</a></li>
+				<li><a href="https://github.com/opengulf/opengulf.github.io/blob/master/assets/images/Open%20Gulf%20May%202019.pdf" class="link" >"The Open Gulf Project" NYU Abu Dhabi Arts and Humanities Division Research Report, May 2019</a></li>
 				</ul>
 
 </p>
