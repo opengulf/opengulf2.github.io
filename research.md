@@ -44,8 +44,8 @@ nav-menu: True
 <h3 id="content">Research Dissemination</h3>
 <p>
 	<ul>
-		<li>Almazhan Kapan, Suphan Kirmizialtin, Rhythm Kukreja and David Joseph Wrisley, "Fine Tuning NER with spaCy for Transliterated Entities Found in Digital Collections From the Multilingual Persian Gulf" 6th Digital Humanities in the Nordic and Baltic Countries Conference (DHNB 2022), Uppsala University, Sweden, 15–18 March 2022.
-		<li>Nora Barakat, Suphan Kirmizialtin and David Joseph Wrisley, "Digital Approaches to Gulf Studies: Introducing OpenGulf" Humanities Research Fellowship for the Study of the Arab World, NYU Abu Dhabi, 3 November 2021.
+		<li>Almazhan Kapan, Suphan Kirmizialtin, Rhythm Kukreja and David Joseph Wrisley, "Fine Tuning NER with spaCy for Transliterated Entities Found in Digital Collections From the Multilingual Persian Gulf" 6th Digital Humanities in the Nordic and Baltic Countries Conference (DHNB 2022), Uppsala University, Sweden, 15–18 March 2022.</li>
+		<li>Nora Barakat, Suphan Kirmizialtin and David Joseph Wrisley, "Digital Approaches to Gulf Studies: Introducing OpenGulf" Humanities Research Fellowship for the Study of the Arab World, NYU Abu Dhabi, 3 November 2021.</li>
 		<li>David Joseph Wrisley, Prince Ampofo and Wajahat Mirza, "Finding Culture in Data Preparation: Interdisciplinarity and the Phone Book" European Association of Digital Humanities: Interdisciplinary Perspectives on Data, Siberian Federal University, Krasnoyarsk, Russia, 21-25 September 2021.</li>
 		<li>Nada Ammagui, Nora Barakat, Camille Cole, Moe Khalil and David Joseph Wrisley, <a href="https://youtu.be/4iiZsmDZWY4" class="link">"OpenGulf: Creating Digital Research Infrastructures for Gulf Studies"</a> Center for Spatial and Textual Analysis (CESTA), Stanford University, 4 May 2021.</li>
 		<li>Nora Barakat and David Joseph Wrisley, "When Does it Become Open?" Engaging Open Social Scholarship (INKE), 8-10 December 2020.</li>
@@ -55,9 +55,9 @@ nav-menu: True
 		<li>Nora Barakat, David Joseph Wrisley. “Open Gulf and Global Asia” at Port City Environments in Global Asia: Luce Abu Dhabi Gathering, NYU Abu Dhabi, 15 January 2020.</li>
 		<li>Nora Barakat, David Joseph Wrisley. "Open Gulf: Collating the Imperial Knowledge of Historical Gazetteers of Arabia," Middle East Studies Association, New Orleans, 17 November 2019.</li>
 		<li>Nora Barakat, Elham Fakhro, Nelida Fuccaro and David Joseph Wrisley, "Mapping Lorimer: Using Digital Methods to Explore the Discursive Construction of Gulf Space, Societies and Cultures/Economies” Exeter Center for Gulf Studies Conference, Exeter, UK, 2 July 2018.</li>
+		</ul>
 
-
-
+</p>
 
 <h3 id="content">Project Publications</h3>
 <p>
