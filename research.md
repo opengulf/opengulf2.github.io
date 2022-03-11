@@ -59,6 +59,7 @@ nav-menu: True
 <h3 id="content">Project Publications</h3>
 <p>
 	<ul>
+		<li><a href="http://hdl.handle.net/2451/63845" class="link">Almazhan Kapan, Suphan Kirmizialtin, Rhythm Kukreja and David Joseph Wrisley, "Fine Tuning NER with spaCy for Transliterated Entities Found in Digital Collections From the Multilingual Persian Gulf" 6th Digital Humanities in the Nordic and Baltic Countries Conference (DHNB 2022), Uppsala University, Sweden, 15–18 March 2022.
 		<li><a href="http://hdl.handle.net/2451/63602" class="link">Finding Culture in Data Preparation: Interdisciplinarity and the Phone Book</a>, European Association of Digital Humanities 2021 abstract (peer reviewed)</li>
 		<li><a href="../openGulf2019" class="link" >"The Open Gulf Project" NYU Abu Dhabi Arts and Humanities Division Research Report, May 2019</a></li>
 		<li><a href="http://hdl.handle.net/2451/61212" class="link" > M. Wajahat Mirza and David Joseph Wrisley, Abu Dhabi Calling!: A Pilot Investigation of Spatial Patterns in Phone Directories. Winter Institute in Digital Humanities, January 2020</a></li>
