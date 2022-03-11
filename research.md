@@ -82,5 +82,5 @@ nav-menu: True
 		<li> Place Name Changes in Arabistan (Khuzestan), Filename: <a href="https://github.com/opengulf/Lorimer_data/blob/master/name_changes_Arabistan.csv" class="link">name_changes_Arabistan.csv</a></li>
 </ul>
 </p>
-<p> <i>Last update: 3 November 2021</i>
+<p> <i>Last update: 11 March 2022</i>
 </p>
