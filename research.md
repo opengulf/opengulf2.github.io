@@ -54,8 +54,9 @@ nav-menu: True
 		<li>Wajahat Mirza, David Joseph Wrisley. “Abu Dhabi Calling!: A Pilot Investigation of Spatial Patterns in Phone Directories” at Winter Institute in Digital Humanities, NYU Abu Dhabi, 20 January 2020.</li>
 		<li>Nora Barakat, David Joseph Wrisley. “Open Gulf and Global Asia” at Port City Environments in Global Asia: Luce Abu Dhabi Gathering, NYU Abu Dhabi, 15 January 2020.</li>
 		<li>Nora Barakat, David Joseph Wrisley. "Open Gulf: Collating the Imperial Knowledge of Historical Gazetteers of Arabia," Middle East Studies Association, New Orleans, 17 November 2019.</li>
-		<li>Nora Barakat, Elham Fakhro, Nelida Fuccaro and David Joseph Wrisley, "Mapping Lorimer: Using Digital Methods to Explore the Discursive Construction of Gulf Space, Societies and Cultures/Economies” Exeter Center for Gulf Studies Conference, Exeter, UK, 2 July 2018</li>
+		<li>Nora Barakat, Elham Fakhro, Nelida Fuccaro and David Joseph Wrisley, "Mapping Lorimer: Using Digital Methods to Explore the Discursive Construction of Gulf Space, Societies and Cultures/Economies” Exeter Center for Gulf Studies Conference, Exeter, UK, 2 July 2018.</li>
 
+</p>
 
 <h3 id="content">Project Publications</h3>
 <p>
