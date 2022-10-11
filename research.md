@@ -46,6 +46,7 @@ nav-menu: True
 <h3 id="content">Research Dissemination</h3>
 <p>
 	<ul>
+		<li>Nora Barakat and David Joseph Wrisley, "Beyond the National Archive: Digital Futures for Gulf Studies" Center for Spatial and Textual Analysis, Stanford, 18 October 2022.</li>
 		<li>Almazhan Kapan, Suphan Kirmizialtin, Rhythm Kukreja and David Joseph Wrisley, "Fine Tuning NER with spaCy for Transliterated Entities Found in Digital Collections From the Multilingual Persian Gulf" 6th Digital Humanities in the Nordic and Baltic Countries Conference (DHNB 2022), Uppsala University, Sweden, 15–18 March 2022.</li>
 		<li>Nora Barakat, “Text Creation from Arabic Historical Sources”, Digital Humanities and Islamic Studies Online Workshop, Oxford Center for Islamic Studies, 20 November 2021.</li>
 		<li>Nora Barakat, Suphan Kirmizialtin and David Joseph Wrisley, "Digital Approaches to Gulf Studies: Introducing OpenGulf" Humanities Research Fellowship for the Study of the Arab World, NYU Abu Dhabi, 3 November 2021.</li>
@@ -67,7 +68,7 @@ nav-menu: True
 <h3 id="content">Research Publications</h3>
 <p>
 	<ul>
-		<li><a href="http://hdl.handle.net/2451/63845" class="link">Fine Tuning NER with spaCy for Transliterated Entities Found in Digital Collections From the Multilingual Persian Gulf</a>. 6th Digital Humanities in the Nordic and Baltic Countries Conference (DHNB 2022), Uppsala University, Sweden, 15–18 March 2022 (peer reviewed)</li>
+		<li><a href="https://archive.nyu.edu/handle/2451/63845" class="link">Fine Tuning NER with spaCy for Transliterated Entities Found in Digital Collections From the Multilingual Persian Gulf</a>. 6th Digital Humanities in the Nordic and Baltic Countries Conference (DHNB 2022), Uppsala University, Sweden, 15–18 March 2022 (peer reviewed)</li>
 		<li><a href="http://hdl.handle.net/2451/63602" class="link">Finding Culture in Data Preparation: Interdisciplinarity and the Phone Book</a>. European Association of Digital Humanities (EADH 2021), Krasnoyarsk, Russia, 21-24 September 2021 (peer reviewed)</li>
 		<li><a href="http://hdl.handle.net/2451/61212" class="link" >Abu Dhabi Calling!: A Pilot Investigation of Spatial Patterns in Phone Directories</a>. Winter Institute in Digital Humanities, January 2020</li>
 		</ul>
@@ -99,5 +100,5 @@ nav-menu: True
 		<li> Place Name Changes in Arabistan (Khuzestan), Filename: <a href="https://github.com/opengulf/Lorimer_data/blob/master/name_changes_Arabistan.csv" class="link">name_changes_Arabistan.csv</a></li>
 </ul>
 </p>
-<p> <i>Last update: 11 March 2022</i>
+<p> <i>Last update: 11 October 2022</i>
 </p>
