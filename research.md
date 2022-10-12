@@ -46,6 +46,7 @@ nav-menu: True
 <h3 id="content">Research Dissemination</h3>
 <p>
 	<ul>
+		<li>Nora Barakat and David Joseph Wrisley, "OpenGulf: Toward a Post-National Digital History" Research Institute for the Humanities, The Chinese University of Hong Kong, 24 October 2022.</li>
 		<li>Nora Barakat and David Joseph Wrisley, "Beyond the National Archive: Digital Futures for Gulf Studies" Center for Spatial and Textual Analysis, Stanford, 18 October 2022.</li>
 		<li>Almazhan Kapan, Suphan Kirmizialtin, Rhythm Kukreja and David Joseph Wrisley, "Fine Tuning NER with spaCy for Transliterated Entities Found in Digital Collections From the Multilingual Persian Gulf" 6th Digital Humanities in the Nordic and Baltic Countries Conference (DHNB 2022), Uppsala University, Sweden, 15–18 March 2022.</li>
 		<li>Nora Barakat, “Text Creation from Arabic Historical Sources”, Digital Humanities and Islamic Studies Online Workshop, Oxford Center for Islamic Studies, 20 November 2021.</li>
@@ -100,5 +101,5 @@ nav-menu: True
 		<li> Place Name Changes in Arabistan (Khuzestan), Filename: <a href="https://github.com/opengulf/Lorimer_data/blob/master/name_changes_Arabistan.csv" class="link">name_changes_Arabistan.csv</a></li>
 </ul>
 </p>
-<p> <i>Last update: 11 October 2022</i>
+<p> <i>Last update: 12 October 2022</i>
 </p>
