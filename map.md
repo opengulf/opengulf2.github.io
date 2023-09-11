@@ -54,6 +54,15 @@ nav-menu: true
       <p>A Prototype for an Environment Atlas</p>
     </header>
   </article>
+  <article>
+    <span class="image">
+      <img src="" alt="" />
+    </span>
+    <header class="major">
+      <h3><a href="../buraimioasis" class="link">Seyahatname</a></h3>
+      <p>Places found in the Seyahatname chapters for Basra and Baghdad</p>
+    </header>
+  </article>
 
 </section>
 
