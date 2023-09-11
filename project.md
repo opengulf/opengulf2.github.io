@@ -47,16 +47,6 @@ nav-menu: true
       <h3><a href="../lorimer" class="link">Historical Texts as Data</a></h3>
       <p>Mining and Visualizing Historical Data about the Gulf </p>
     </header>
-  </article>
-
-  <article>
-    <span class="image">
-      <img src="" alt="" />
-    </span>
-    <header class="major">
-      <h3><a href="../digitalEx" class="link">Digital Exhibits</a></h3>
-      <p>Curating Exhibits about Gulf Topics</p>
-    </header>
   </article>  
   <article>
     <span class="image">
