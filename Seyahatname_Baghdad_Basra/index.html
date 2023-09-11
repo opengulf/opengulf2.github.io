@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="css/leaflet.css">
+        <link rel="stylesheet" href="css/qgis2web.css"><link rel="stylesheet" href="css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="css/leaflet-control-geocoder.Geocoder.css">
+        <link rel="stylesheet" href="css/leaflet-measure.css">
+        <style>
+        html, body, #map {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <div id="map">
+        </div>
+        <script src="js/qgis2web_expressions.js"></script>
+        <script src="js/leaflet.js"></script>
+        <script src="js/leaflet.rotatedMarker.js"></script>
+        <script src="js/leaflet.pattern.js"></script>
+        <script src="js/leaflet-hash.js"></script>
+        <script src="js/Autolinker.min.js"></script>
+        <script src="js/rbush.min.js"></script>
+        <script src="js/labelgun.min.js"></script>
+        <script src="js/labels.js"></script>
+        <script src="js/leaflet-control-geocoder.Geocoder.js"></script>
+        <script src="js/leaflet-measure.js"></script>
+        <script src="data/Basra_txt_1.js"></script>
+        <script src="data/Baghdad_txt_2.js"></script>
+        <script>
+        var map = L.map('map', {
+            zoomControl:true, maxZoom:28, minZoom:1
+        }).fitBounds([[14.890309163352143,18.105654303338152],[48.4579012829309,86.05797930333827]]);
+        var hash = new L.Hash(map);
+        map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
+        var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
+        var measureControl = new L.Control.Measure({
+            position: 'topleft',
+            primaryLengthUnit: 'meters',
+            secondaryLengthUnit: 'kilometers',
+            primaryAreaUnit: 'sqmeters',
+            secondaryAreaUnit: 'hectares'
+        });
+        measureControl.addTo(map);
+        document.getElementsByClassName('leaflet-control-measure-toggle')[0]
+        .innerHTML = '';
+        document.getElementsByClassName('leaflet-control-measure-toggle')[0]
+        .className += ' fas fa-ruler';
+        var bounds_group = new L.featureGroup([]);
+        function setBounds() {
+        }
+        map.createPane('pane_EsriPhysical_0');
+        map.getPane('pane_EsriPhysical_0').style.zIndex = 400;
+        var layer_EsriPhysical_0 = L.tileLayer('https://server.arcgisonline.com/arcgis/rest/services/World_Physical_Map/MapServer/tile/{z}/{y}/{x}', {
+            pane: 'pane_EsriPhysical_0',
+            opacity: 1.0,
+            attribution: '',
+            minZoom: 1,
+            maxZoom: 28,
+        });
+        layer_EsriPhysical_0;
+        map.addLayer(layer_EsriPhysical_0);
+        function pop_Basra_txt_1(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">FILE</th>\
+                        <td>' + (feature.properties['FILE'] !== null ? autolinker.link(feature.properties['FILE'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">AR/FA Name</th>\
+                        <td>' + (feature.properties['AR/FA Name'] !== null ? autolinker.link(feature.properties['AR/FA Name'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Original_E</th>\
+                        <td>' + (feature.properties['Original_E'] !== null ? autolinker.link(feature.properties['Original_E'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Ottoman/Tu</th>\
+                        <td>' + (feature.properties['Ottoman/Tu'] !== null ? autolinker.link(feature.properties['Ottoman/Tu'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">GeonamesID</th>\
+                        <td>' + (feature.properties['GeonamesID'] !== null ? autolinker.link(feature.properties['GeonamesID'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Country</th>\
+                        <td>' + (feature.properties['Country'] !== null ? autolinker.link(feature.properties['Country'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">District</th>\
+                        <td>' + (feature.properties['District'] !== null ? autolinker.link(feature.properties['District'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Category_o</th>\
+                        <td>' + (feature.properties['Category_o'] !== null ? autolinker.link(feature.properties['Category_o'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Latitude</th>\
+                        <td>' + (feature.properties['Latitude'] !== null ? autolinker.link(feature.properties['Latitude'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Longitude</th>\
+                        <td>' + (feature.properties['Longitude'] !== null ? autolinker.link(feature.properties['Longitude'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Comments'] !== null ? autolinker.link(feature.properties['Comments'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_Basra_txt_1_0() {
+            return {
+                pane: 'pane_Basra_txt_1',
+                radius: 6.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(190,207,80,1.0)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_Basra_txt_1');
+        map.getPane('pane_Basra_txt_1').style.zIndex = 401;
+        map.getPane('pane_Basra_txt_1').style['mix-blend-mode'] = 'normal';
+        var layer_Basra_txt_1 = new L.geoJson(json_Basra_txt_1, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_Basra_txt_1',
+            layerName: 'layer_Basra_txt_1',
+            pane: 'pane_Basra_txt_1',
+            onEachFeature: pop_Basra_txt_1,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_Basra_txt_1_0(feature));
+            },
+        });
+        bounds_group.addLayer(layer_Basra_txt_1);
+        map.addLayer(layer_Basra_txt_1);
+        function pop_Baghdad_txt_2(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">FILE</th>\
+                        <td>' + (feature.properties['FILE'] !== null ? autolinker.link(feature.properties['FILE'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">AR/FA Name</th>\
+                        <td>' + (feature.properties['AR/FA Name'] !== null ? autolinker.link(feature.properties['AR/FA Name'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Original_E</th>\
+                        <td>' + (feature.properties['Original_E'] !== null ? autolinker.link(feature.properties['Original_E'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Ottoman/Tu</th>\
+                        <td>' + (feature.properties['Ottoman/Tu'] !== null ? autolinker.link(feature.properties['Ottoman/Tu'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">GeonamesID</th>\
+                        <td>' + (feature.properties['GeonamesID'] !== null ? autolinker.link(feature.properties['GeonamesID'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Country</th>\
+                        <td>' + (feature.properties['Country'] !== null ? autolinker.link(feature.properties['Country'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">District</th>\
+                        <td>' + (feature.properties['District'] !== null ? autolinker.link(feature.properties['District'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Category_o</th>\
+                        <td>' + (feature.properties['Category_o'] !== null ? autolinker.link(feature.properties['Category_o'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Latitude</th>\
+                        <td>' + (feature.properties['Latitude'] !== null ? autolinker.link(feature.properties['Latitude'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Longitude</th>\
+                        <td>' + (feature.properties['Longitude'] !== null ? autolinker.link(feature.properties['Longitude'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Comments'] !== null ? autolinker.link(feature.properties['Comments'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_Baghdad_txt_2_0() {
+            return {
+                pane: 'pane_Baghdad_txt_2',
+                radius: 6.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(196,60,57,1.0)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_Baghdad_txt_2');
+        map.getPane('pane_Baghdad_txt_2').style.zIndex = 402;
+        map.getPane('pane_Baghdad_txt_2').style['mix-blend-mode'] = 'normal';
+        var layer_Baghdad_txt_2 = new L.geoJson(json_Baghdad_txt_2, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_Baghdad_txt_2',
+            layerName: 'layer_Baghdad_txt_2',
+            pane: 'pane_Baghdad_txt_2',
+            onEachFeature: pop_Baghdad_txt_2,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_Baghdad_txt_2_0(feature));
+            },
+        });
+        bounds_group.addLayer(layer_Baghdad_txt_2);
+        map.addLayer(layer_Baghdad_txt_2);
+        var osmGeocoder = new L.Control.Geocoder({
+            collapsed: true,
+            position: 'topleft',
+            text: 'Search',
+            title: 'Testing'
+        }).addTo(map);
+        document.getElementsByClassName('leaflet-control-geocoder-icon')[0]
+        .className += ' fa fa-search';
+        document.getElementsByClassName('leaflet-control-geocoder-icon')[0]
+        .title += 'Search for a place';
+        setBounds();
+        var i = 0;
+        layer_Basra_txt_1.eachLayer(function(layer) {
+            var context = {
+                feature: layer.feature,
+                variables: {}
+            };
+            layer.bindTooltip((layer.feature.properties['Ottoman/Tu'] !== null?String('<div style="color: #323232; font-size: 10pt; font-weight: bold; font-family: \'Helvetica Neue\', sans-serif;">' + layer.feature.properties['Ottoman/Tu']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_Basra_txt_1'});
+            labels.push(layer);
+            totalMarkers += 1;
+              layer.added = true;
+              addLabel(layer, i);
+              i++;
+        });
+        var i = 0;
+        layer_Baghdad_txt_2.eachLayer(function(layer) {
+            var context = {
+                feature: layer.feature,
+                variables: {}
+            };
+            layer.bindTooltip((layer.feature.properties['Ottoman/Tu'] !== null?String('<div style="color: #323232; font-size: 10pt; font-weight: bold; font-family: \'Helvetica Neue\', sans-serif;">' + layer.feature.properties['Ottoman/Tu']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_Baghdad_txt_2'});
+            labels.push(layer);
+            totalMarkers += 1;
+              layer.added = true;
+              addLabel(layer, i);
+              i++;
+        });
+        resetLabels([layer_Basra_txt_1,layer_Baghdad_txt_2]);
+        map.on("zoomend", function(){
+            resetLabels([layer_Basra_txt_1,layer_Baghdad_txt_2]);
+        });
+        map.on("layeradd", function(){
+            resetLabels([layer_Basra_txt_1,layer_Baghdad_txt_2]);
+        });
+        map.on("layerremove", function(){
+            resetLabels([layer_Basra_txt_1,layer_Baghdad_txt_2]);
+        });
+        </script>
+    </body>
+</html>
