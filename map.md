@@ -59,7 +59,7 @@ nav-menu: true
       <img src="" alt="" />
     </span>
     <header class="major">
-      <h3><a href="../buraimioasis" class="link">Seyahatname</a></h3>
+      <h3><a href="../seyahatname" class="link">Seyahatname</a></h3>
       <p>Places found in the Seyahatname chapters for Basra and Baghdad</p>
     </header>
   </article>
