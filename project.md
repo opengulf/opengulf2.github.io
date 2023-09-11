@@ -63,8 +63,9 @@ nav-menu: true
       <img src="" alt="" />
     </span>
     <header class="major">
-      <h3><a href="../comingsoon" class="link">Coming soon</a></h3>
-      <p>OpenGulf is evolving</p>
+      <h3><a href="https://dishbydish.github.io/project/" class="link">Dish by Dish</a></h3>
+      <p>Dish by Dish is a community project about food in the Arabian Gulf region.
+</p>
     </header>
   </article>
 
