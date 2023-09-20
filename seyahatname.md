@@ -9,7 +9,7 @@ nav-menu: false
 <section id="one">
   <div class="inner">
     <header class="major">
-      <h1>Places in the Basra and Baghdad chapters of the Seyahatname</h1>
+      <h1>Mapping the Basra and Baghdad chapters of _Seyahatname-i Hudud_</h1>
     </header>
 <iframe src="https://opengulf.github.io/webapps/seyahatname_map/#5/32.861/44.055" width="100%" height="700"></iframe>
 <p>
