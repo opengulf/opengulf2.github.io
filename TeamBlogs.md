@@ -28,5 +28,6 @@ nav-menu: True
 		<li><a href="../Aug2021ner_spacy" class="link">Custom Named Entity
 		Recognition in Lorimer's Gazetteer with Spacy <i> by Alma
 		Kapan</i></a></li>
+		<li><a href="../googleDocsTranscription" class="link">Exploring the Power of Google Vision API: Building Handwritten Ground Truth with Google Docs via Google Drive <i> by Fady John</i></a></li>
 
 <!-- </p> -->
